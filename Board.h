@@ -1,7 +1,6 @@
 #ifndef BOARD_H
 #define BOARD_H
 export class Board: public Subject, public Observer{
-  char **board;
   int whiteScore, blackScore;
 
   public:
