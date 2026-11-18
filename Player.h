@@ -7,11 +7,14 @@
 #include "System.h"
 
 
-export class Player: public Subject, public Observer, public Moves{
+class Player: public Subject, public Observer, public Moves{
   System *sys; 
   Point lastPiece;
   Point lastMove;
   public:
-  Point getstate(); // query the move made by Player
-}
+    Player();
+    void notify() override;
+    ~Player() override;
+    Point getstate(); // query the move made by Player
+};
 #endif

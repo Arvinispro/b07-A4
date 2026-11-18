@@ -14,8 +14,12 @@ export class Computer: public Subject, public Observer, public Moves{
   Point lastMove;
   //there might be more functions for levels of computer
   public:
-  Point getstate(); // query the move made by bot
-  Computer();
-  ~Computer() override;
+    Computer(int level);
+    ~Computer() override;
+    void notify() override;
+    Point getstate(); // query the move made by bot
+    
+    
+    
 }
 #endif

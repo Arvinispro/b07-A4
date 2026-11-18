@@ -6,7 +6,10 @@ export class Subject{
     int numObservers = 0;
   public:
     Subject(const Observer *observers, int numObservers);
-    void notifyObservers() const;
+    Subject(Subject &other);
+    Subject(Subject &&other);
+    Subject &
     virtual ~Subject()=0;
+    void notifyObservers() const;
 }
 #endif
