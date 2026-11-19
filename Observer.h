@@ -6,5 +6,5 @@ class Observer{
     Observer();
     virtual void notify() = 0;
     virtual ~Observer() = 0;
-}
+};
 #endif

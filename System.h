@@ -1,33 +1,27 @@
 #ifndef SYSTEM_H
 #define SYSTEM_H
 #include "Observer.h"
+#include "Subject.h"
 #include "Util.h"
-#include "Player.h"
-#include "Computer.h"
 
 
 class System: public Subject, public Observer{
-  Moves *white, *black;
-  Subject *validate;
-  Observer *board;
+  Subject *validate; //subject
   public:
-  System();
-  ~System() override;
-  Point getstate(); //might NOT be needed b/c system only notify white or black, but still keep it in case
-  void notify() override; // get notified by validator to check game status, if game ends, must set gameReady back to false
-                        //(ie. if someone wins after the latest move, game is over)
-  void notifyWhite(const Point &piece, const Point &position, const char &promote); //{set move into state, white->notify()}
-  void notifyBlack(const Point &piece, const Point &position, const char &promote); //{set move into state, black->notify()}
-  void gameStart(); //start the game, make gameReady = true, notify board::display()
-  void resign(); //set gameReady=false
-  void equal(); // set up the colour
-  void finishSetup(); //Validate the final board in setup mode
-
-  void setWhite(Moves *white);
-  void setBlack(Moves *black);
+  
+    System(Subject *validate);
+    ~System() override;
+    std::vector<Point> &getState() override; //might NOT be needed b/c system only notify white or black, but MUST be kept due to purely virtual
+    void notify() override; // get notified by validator to check game status, if game ends, must set gameReady back to false
+                          //(ie. if someone wins after the latest move, game is over)
+    void notifyWhite(const Point &piece, const Point &position, const char &promote); // white is 1st obs, {set move into state, white->notify()}
+    void notifyBlack(const Point &piece, const Point &position, const char &promote); // black is 2nd obs, {set move into state, black->notify()}
+    void gameStart(); //start the game, make gameReady = true, notify board::display()
+    void resign(); //set gameReady=false
+    void equal(std::string &colour); // set up the colour
+    void finishSetup(); //Validate the final board in setup mode
 
 
-
-}
+};
 
 #endif

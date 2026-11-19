@@ -4,22 +4,22 @@
 #include "Observer.h"
 #include "Moves.h"
 #include "Util.h"
-#include "System.h"
+#include <vector>
 
-
-export class Computer: public Subject, public Observer, public Moves{
-  System *sys;
+class Computer: public Subject, public Observer, public Moves{
+  Subject *sys; //subject
   int level;
   Point lastPiece;
-  Point lastMove;
+  Point lastMove; //these are passed to validater
+
   //there might be more functions for levels of computer
   public:
-    Computer(int level);
+    Computer(Subject *sys, int level); // set validate in the obse
     ~Computer() override;
-    void notify() override;
-    Point getstate(); // query the move made by bot
+    void notify() override; // be called by system to make move
+    std::vector<Point> &getState(); // query the move made by bot
     
     
     
-}
+};
 #endif

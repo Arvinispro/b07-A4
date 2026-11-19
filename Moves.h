@@ -2,7 +2,6 @@
 #define MOVES_H
 #include "Util.h"
 class Moves{
-  
   //each function would validate intrinsically to see if it is a legal move under that piece.
   //ie. Pawn should capture diagnoallly, or rook should only go straight lines
   void pawn(Point &cur, const Point &move);
@@ -15,5 +14,5 @@ class Moves{
   public:
     void chooseMove(Point piece, Point move); //allow player and bot to make move
                                              
-}
+};
 #endif

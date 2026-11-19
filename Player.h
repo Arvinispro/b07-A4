@@ -4,17 +4,16 @@
 #include "Observer.h"
 #include "Moves.h"
 #include "Util.h"
-#include "System.h"
-
+#include <vector>
 
 class Player: public Subject, public Observer, public Moves{
-  System *sys; 
+  Subject *sys; //subject
   Point lastPiece;
-  Point lastMove;
+  Point lastMove;//these are passed to validater
   public:
-    Player();
-    void notify() override;
+    Player(Subject *sys);
     ~Player() override;
-    Point getstate(); // query the move made by Player
+    void notify() override; // be called by system to make move
+    std::vector<Point> &getState() override; // query the move made by Player
 };
 #endif

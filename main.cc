@@ -1,12 +1,10 @@
-#include <iostream>
-#include <Player.h>
-#include <Computer.h>
-#include <Board.h>
-#include <Moves.h>
-#include <Observer.h>
-#include <Subject.h>
-#include <System.h>
-#include <Validate.h>
+#include "Player.h"
+#include "Computer.h"
+#include "Board.h"
+#include "Util.h"
+#include "Subject.h"
+#include "System.h"
+#include "Validate.h"
 #include <iostream>
 #include <string>
 #include <stdexcept>
@@ -16,7 +14,11 @@ int main(){
   string command, white, black, level, dummy;
   char promote;
   Point piece, position;
-  System sys;
+  Validate validate;
+  System sys{&validate};
+  Board board{&validate};
+  Subject *whiteP=nullptr, *blackP=nullptr;
+  
   while (true) {
     cin >> command;
 
@@ -30,19 +32,19 @@ int main(){
         if(cin.eof()) break;
 
         if(white == "human"){
-          sys.setWhite(new Player{});
+          whiteP = new Player{&sys};
         }
         else if( white == "computer"){
           cin >> level;
           if(cin.eof()) break;
           if(level == "[1]"){
-            sys.setWhite(new Computer{1});
+            whiteP = new Computer{&sys, 1};
           }
           else if(level == "[2]"){
-            sys.setWhite(new Computer{2});
+            whiteP = new Computer{&sys, 2};
           }
           else if(level == "[3]"){
-            sys.setWhite(new Computer{3});
+            whiteP = new Computer{&sys, 3};
           }
           else{
             cerr << "please input 'computer [level]', level can be 1, 2, or 3" << endl;
@@ -59,21 +61,21 @@ int main(){
         cin >> black;
         if(cin.eof()) break;
         if(black == "human"){
-          sys.setBlack(new Player{}); 
+          blackP = new Player{&sys}; 
         }
         else if( black == "computer"){
           cin >> level;
           if(cin.eof()) break;
 
           if(level == "[1]"){
-            sys.setBlack(new Computer{1});
+            blackP = new Computer{&sys, 1};
           }
           else if(level == "[2]"){
-            sys.setBlack(new Computer{2});
+            blackP = new Computer{&sys, 2};
 
           }
           else if(level == "[3]"){
-            sys.setBlack(new Computer{3});
+            blackP = new Computer{&sys, 3};
           }
           else{
             cerr << "please input 'computer [level]', level can be 1, 2, or 3" << endl;
@@ -86,6 +88,7 @@ int main(){
           getline(cin, dummy);
           break;
         }
+        validate.setPlayers(whiteP, blackP);
         sys.gameStart();
       }
     } 
@@ -123,7 +126,7 @@ int main(){
         }
         else{
           //promotion
-          if(position.getRow()==1 || position.getRow()==8){
+          if(position.row==1 || position.row==8){
             while(!(cin>>promote)){
               if(cin.eof()) break;
               //check valid
@@ -139,6 +142,32 @@ int main(){
         }
       }
       
+    }
+    else if (command == "setup"){
+      while(true){
+        cin >> command;
+        if(command == "+"){
+          //add piece
+          board.plus(/*piece, position*/);
+        }
+        else if(command == "-"){
+          board.minus(/*piece, position*/);
+        }
+        else if(command == "="){
+          sys.equal(/*colour*/);
+        }
+        else if(command == "done"){
+          sys.finishSetup();
+          break;
+        }
+        else{
+          cout << "command not found" << endl;
+        }
+      }
+      
+    }
+    else{
+      cout << "command not found" << endl;
     }
   }// while
 }

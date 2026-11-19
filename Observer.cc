@@ -1,1 +1,2 @@
-module Observer;
+#include "Observer.h"
+Observer::Observer(){}
