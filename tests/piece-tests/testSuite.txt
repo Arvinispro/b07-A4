@@ -41,3 +41,9 @@ promote_rook
 promote_bishop
 promote_knight
 promotion_capture
+rook_horizontal
+bishop_straight
+queen_blocked
+block_check
+promotion_invalid_piece
+move_wrong_colour
