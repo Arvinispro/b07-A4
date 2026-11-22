@@ -28,6 +28,9 @@ Point &Point::operator+=(const Point &y){
 std::istream &operator>>(std::istream &in, Point &move){
   in >> move.col >> move.row; //expect <char><int>, ie. "e3"
   if(in.fail()) throw std::invalid_argument{"Invalid point"};
-  
+  // input check
+  if(move.col < 'a' || move.col > 'h') throw std::invalid_argument{"Invalid point"};
+  if(move.row < 1 || move.row > 8) throw std::invalid_argument{"Invalid point"};
+
   return in;
 }

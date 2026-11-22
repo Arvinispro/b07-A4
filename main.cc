@@ -8,7 +8,8 @@
 #include <iostream>
 #include <string>
 #include <stdexcept>
-
+#include <algorithm>
+#include <cctype>
 using namespace std;
 vector<Point> humanMove(string &dummy){
   // validate inputs
@@ -35,6 +36,8 @@ char promotion(string &dummy){
   while(true){
     try{
       cin >> promote;
+      if(cin.eof()) return '_';
+
       if(cin.fail()) throw invalid_argument{"Character only"};
       if(!allowed.find(promote)) throw invalid_argument{"Promotion not allowed"};
       break;
@@ -47,8 +50,8 @@ char promotion(string &dummy){
   }
   return promote;
 }
-int main(){
-  string command, white, black, level, dummy;
+int main(){ // input check
+  string command, player, level, dummy;
   char promote;
   vector<Point> move;
   Validate validate;
@@ -66,13 +69,18 @@ int main(){
     if(command == "game"){
       while(!gameReady){
         // the user will keep input their choice for players until they are valid
-        cin >> white;
+        cin >> player;
         if(cin.eof()) break;
+        if(cin.fail()){
+          cerr << "Invalid input" << endl;
+          cin.clear();
+          continue;
+        }
 
-        if(white == "human"){
+        if(player == "human"){
           whiteP = new Player{&sys};
         }
-        else if( white == "computer"){
+        else if( player == "computer"){
           whiteComp = true;
           cin >> level;
           if(cin.eof()) break;
@@ -98,12 +106,18 @@ int main(){
           break;
         }
 
-        cin >> black;
+        cin >> player;
         if(cin.eof()) break;
-        if(black == "human"){
+        if(cin.fail()){
+          cerr << "Invalid input" << endl;
+          cin.clear();
+          continue;
+        }
+
+        if(player == "human"){
           blackP = new Player{&sys}; 
         }
-        else if( black == "computer"){
+        else if( player == "computer"){
           blackComp=true;
           cin >> level;
           if(cin.eof()) break;
@@ -139,7 +153,7 @@ int main(){
     }
     //not finished
     else if (command == "move"){
-      //check computer
+
       if(whiteTurn){
         if(whiteComp) sys.notifyWhite(vector<Point>{}); //bot should disregard the inputs
         else{
@@ -151,47 +165,82 @@ int main(){
           }
           //promotion
           if(move.at(1).row ==1 || move.at(1).row==8){
-            
-    }
-    else promote = 'z'; //no promotion
+            promote = promotion(dummy);
+            if(promote == '_') continue;
+            sys.notifyWhite(move, promote);
+            continue;
+          }
+          sys.notifyWhite(move);
         }
       }
-      else{
+      else{ //black turn
         if(blackComp) sys.notifyBlack(vector<Point>{});
         else{
           //human
+          if(move.size() == 0){
+            cerr << "Input is not complete" << endl;
+            continue;
+          }
+          //promotion
+          if(move.at(1).row ==1 || move.at(1).row==8){
+            promote = promotion(dummy);
+            if(promote == '_') continue;
+            sys.notifyBlack(move, promote);
+            continue;
+          }
+          sys.notifyBlack(move);
         }
       }
-      
-      // human move
-      
-      
     }
     else if (command == "setup"){
       while(true){
         cin >> command;
         if(command == "+"){
-          //add piece
-          board.plus(/*piece, position*/);
+          Point piece{'z', 0}, position{'z', 0};
+          try{
+            cin >> piece >> position;
+          }
+          catch(invalid_argument &) {
+            cin.clear();
+            continue;
+          }
+          board.plus(piece, position);
         }
         else if(command == "-"){
-          board.minus(/*piece, position*/);
+          Point piece{'z', 0}, position{'z', 0};
+          try{
+            cin >> piece >> position;
+          }
+          catch(invalid_argument &) {
+            cin.clear();
+            continue;
+          }
+          board.minus(piece, position);
         }
         else if(command == "="){
-          sys.equal(/*colour*/);
+          cout << "white or black: ";
+          string color;
+          cin >> color;
+          if(cin.fail()){
+            cin.clear();
+            continue;
+          }
+          if(color != "white" || color != "black" || color != "White" || color != "Black") continue;
+          for (char &c : color) c = tolower(static_cast<unsigned char>(c));
+          sys.equal(color); //color is either white or black
         }
         else if(command == "done"){
           sys.finishSetup();
           break;
         }
         else{
-          cout << "command not found" << endl;
+          cout << "command not found, type 'done' to exit" << endl;
         }
       }
       
     }
     else{
-      cout << "command not found" << endl;
+      cout << "command not found, type 'quit' to exit" << endl;
     }
   }// while
 }
