@@ -151,7 +151,7 @@ int main(){ // input check
     else if (command == "resign"){
       sys.resign();
     }
-    //not finished
+    
     else if (command == "move"){
 
       if(whiteTurn){
@@ -192,13 +192,19 @@ int main(){ // input check
         }
       }
     }
+    
     else if (command == "setup"){
       while(true){
         cin >> command;
         if(command == "+"){
-          Point piece{'z', 0}, position{'z', 0};
+          char piece;
+          string allowed = "KQNBRPkqnbrp";
+          Point position{'z', 0};
           try{
             cin >> piece >> position;
+            if(cin.fail()) throw invalid_argument{"Expecting char"};
+            if(!allowed.find(piece)) throw invalid_argument{"Invalid piece"};
+
           }
           catch(invalid_argument &) {
             cin.clear();
@@ -207,15 +213,15 @@ int main(){ // input check
           board.plus(piece, position);
         }
         else if(command == "-"){
-          Point piece{'z', 0}, position{'z', 0};
+          Point piece{'z', 0};
           try{
-            cin >> piece >> position;
+            cin >> piece ;
           }
           catch(invalid_argument &) {
             cin.clear();
             continue;
           }
-          board.minus(piece, position);
+          board.minus(piece);
         }
         else if(command == "="){
           cout << "white or black: ";
