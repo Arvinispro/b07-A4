@@ -10,6 +10,8 @@
 #include <stdexcept>
 #include <algorithm>
 #include <cctype>
+#include <optional>
+
 using namespace std;
 vector<Point> humanMove(string &dummy){
   // validate inputs
@@ -17,7 +19,9 @@ vector<Point> humanMove(string &dummy){
   while(true){
     try{
       if(cin.eof()) return vector<Point>{};
+      cout << "from: ";
       cin >> piece;
+      cout << "to: ";
       cin >> position;
       break;
     }
@@ -30,13 +34,14 @@ vector<Point> humanMove(string &dummy){
   return vector<Point>{piece, position};
 }
 
-char promotion(string &dummy){
+optional<char> promotion(string &dummy){
   char promote;
   string allowed = "QRNB";
   while(true){
     try{
+      cout << "promote to(QRNB): ";
       cin >> promote;
-      if(cin.eof()) return '_';
+      if(cin.eof()) return nullopt;
 
       if(cin.fail()) throw invalid_argument{"Character only"};
       if(!allowed.find(promote)) throw invalid_argument{"Promotion not allowed"};
@@ -52,7 +57,7 @@ char promotion(string &dummy){
 }
 int main(){ // input check
   string command, player, level, dummy;
-  char promote;
+  optional<char> promote;
   vector<Point> move;
   Validate validate;
   System sys{&validate};
@@ -61,6 +66,7 @@ int main(){ // input check
   bool whiteComp=false, blackComp=false;
   
   while (true) {
+    cout << "game, move, setup, resign: ";
     cin >> command;
 
     // Terminate the program if enter 'quit' or reach EOF.
@@ -68,6 +74,7 @@ int main(){ // input check
 
     if(command == "game"){
       while(!gameReady){
+        cout << "White(human/comupter [level]): ";
         // the user will keep input their choice for players until they are valid
         cin >> player;
         if(cin.eof()) break;
@@ -105,7 +112,7 @@ int main(){ // input check
           getline(cin, dummy);
           break;
         }
-
+        cout << "Black(human/comupter [level]): ";
         cin >> player;
         if(cin.eof()) break;
         if(cin.fail()){
@@ -166,7 +173,7 @@ int main(){ // input check
           //promotion
           if(move.at(1).row ==1 || move.at(1).row==8){
             promote = promotion(dummy);
-            if(promote == '_') continue;
+            if(!promote) continue; //returned nullopt
             sys.notifyWhite(move, promote);
             continue;
           }
@@ -184,7 +191,7 @@ int main(){ // input check
           //promotion
           if(move.at(1).row ==1 || move.at(1).row==8){
             promote = promotion(dummy);
-            if(promote == '_') continue;
+            if(!promote) continue; //returned nullopt
             sys.notifyBlack(move, promote);
             continue;
           }
@@ -195,6 +202,7 @@ int main(){ // input check
     
     else if (command == "setup"){
       while(true){
+        cout << "select +, -, = or done: ";
         cin >> command;
         if(command == "+"){
           char piece;
@@ -206,8 +214,9 @@ int main(){ // input check
             if(!allowed.find(piece)) throw invalid_argument{"Invalid piece"};
 
           }
-          catch(invalid_argument &) {
+          catch(invalid_argument r) {
             cin.clear();
+            cerr << r.what() << endl;
             continue;
           }
           board.plus(piece, position);
@@ -217,14 +226,15 @@ int main(){ // input check
           try{
             cin >> piece ;
           }
-          catch(invalid_argument &) {
+          catch(invalid_argument r) {
             cin.clear();
+            cerr << r.what() << endl;
             continue;
           }
           board.minus(piece);
         }
         else if(command == "="){
-          cout << "white or black: ";
+          cout << "white or black?: ";
           string color;
           cin >> color;
           if(cin.fail()){
@@ -232,21 +242,21 @@ int main(){ // input check
             continue;
           }
           if(color != "white" || color != "black" || color != "White" || color != "Black") continue;
-          for (char &c : color) c = tolower(static_cast<unsigned char>(c));
+          for (char &c : color) c = tolower(static_cast<unsigned char>(c)); //turn to all lower case
           sys.equal(color); //color is either white or black
         }
         else if(command == "done"){
-          sys.finishSetup();
+          sys.finishSetup(); //finishSetup must validate the board
           break;
         }
         else{
-          cout << "command not found, type 'done' to exit" << endl;
+          cout << "command not found" << endl;
         }
       }
       
     }
     else{
-      cout << "command not found, type 'quit' to exit" << endl;
+      cout << "command not found" << endl;
     }
   }// while
 }
