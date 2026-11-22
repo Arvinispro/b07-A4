@@ -10,14 +10,52 @@
 #include <stdexcept>
 
 using namespace std;
+vector<Point> humanMove(string &dummy){
+  // validate inputs
+  Point piece{'z', 0}, position{'z', 0};
+  while(true){
+    try{
+      if(cin.eof()) return vector<Point>{};
+      cin >> piece;
+      cin >> position;
+      break;
+    }
+    catch(invalid_argument &){
+      cin.clear();
+      getline(cin, dummy);
+      cerr << "Input the piece and position again" << endl;
+    }
+  }
+  return vector<Point>{piece, position};
+}
+
+char promotion(string &dummy){
+  char promote;
+  string allowed = "QRNB";
+  while(true){
+    try{
+      cin >> promote;
+      if(cin.fail()) throw invalid_argument{"Character only"};
+      if(!allowed.find(promote)) throw invalid_argument{"Promotion not allowed"};
+      break;
+    }
+    catch(invalid_argument &){
+      cin.clear();
+      getline(cin, dummy);
+      cerr << "Input promotion again" << endl;
+    }
+  }
+  return promote;
+}
 int main(){
   string command, white, black, level, dummy;
   char promote;
-  Point piece, position;
+  vector<Point> move;
   Validate validate;
   System sys{&validate};
   Board board{&validate};
   Subject *whiteP=nullptr, *blackP=nullptr;
+  bool whiteComp=false, blackComp=false;
   
   while (true) {
     cin >> command;
@@ -35,6 +73,7 @@ int main(){
           whiteP = new Player{&sys};
         }
         else if( white == "computer"){
+          whiteComp = true;
           cin >> level;
           if(cin.eof()) break;
           if(level == "[1]"){
@@ -48,7 +87,8 @@ int main(){
           }
           else{
             cerr << "please input 'computer [level]', level can be 1, 2, or 3" << endl;
-
+            whiteComp = false;
+            getline(cin, dummy);
             break;
           }
         }
@@ -64,6 +104,7 @@ int main(){
           blackP = new Player{&sys}; 
         }
         else if( black == "computer"){
+          blackComp=true;
           cin >> level;
           if(cin.eof()) break;
 
@@ -79,6 +120,7 @@ int main(){
           }
           else{
             cerr << "please input 'computer [level]', level can be 1, 2, or 3" << endl;
+            blackComp=false;
             getline(cin, dummy);
             break;
           }
@@ -98,49 +140,31 @@ int main(){
     //not finished
     else if (command == "move"){
       //check computer
-      
-      // human move
-      while(true){
-        try{
-          cin >> piece;
-          if(somthing){
-            throw 
-          }
-        }
-        
-        if(!(cin >> piece)){
-          if(cin.eof()) break; 
-          //check valid
-          cin.clear();
-          getline(cin, dummy);
-          cerr << "piece is invalid" << endl;
-          continue;
-        }
-        else if(!(cin >> position)){
-          if(cin.eof()) break;
-          //check valid
-          cin.clear();
-          getline(cin, dummy);
-          cerr << "position is invalid" << endl;
-          continue;
-        }
+      if(whiteTurn){
+        if(whiteComp) sys.notifyWhite(vector<Point>{}); //bot should disregard the inputs
         else{
-          //promotion
-          if(position.row==1 || position.row==8){
-            while(!(cin>>promote)){
-              if(cin.eof()) break;
-              //check valid
-              getline(cin, dummy);
-              cerr << "promote is invalid" << endl;
-
-            }
+          //human
+          move = humanMove(dummy);
+          if(move.size() == 0){
+            cerr << "Input is not complete" << endl;
+            continue;
           }
-          else promote = 'z'; //no promotion
-          if(whiteTurn) sys.notifyWhite(piece, position, promote);
-          else sys.notifyBlack(piece, position, promote);
-          break;
+          //promotion
+          if(move.at(1).row ==1 || move.at(1).row==8){
+            
+    }
+    else promote = 'z'; //no promotion
         }
       }
+      else{
+        if(blackComp) sys.notifyBlack(vector<Point>{});
+        else{
+          //human
+        }
+      }
+      
+      // human move
+      
       
     }
     else if (command == "setup"){

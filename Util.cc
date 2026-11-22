@@ -1,6 +1,7 @@
 #include "Util.h"
 #include <iostream>
 #include <vector>
+#include <stdexcept>
 
 std::vector<std::vector<char>> game = {
 /*8*/ {'r','n','b','q','k','b','n','r'},
@@ -26,5 +27,7 @@ Point &Point::operator+=(const Point &y){
 
 std::istream &operator>>(std::istream &in, Point &move){
   in >> move.col >> move.row; //expect <char><int>, ie. "e3"
+  if(in.fail()) throw std::invalid_argument{"Invalid point"};
+  
   return in;
 }
