@@ -10,7 +10,7 @@ class Subject{
   public:
     Subject(std::vector<Observer *> observers);
     virtual ~Subject()=0;
-    virtual std::vector<Point> &getState()=0; //since all the getState are using Point
+    virtual moveNode getState()=0; //since all the getState are using Point
     void notifyObservers() const;
     void attach(Observer *o);
     void detach(Observer *o);

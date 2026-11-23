@@ -17,7 +17,7 @@ class Computer: public Subject, public Observer, public Moves{
     Computer(Subject *sys, int level); // set validate in the obse
     ~Computer() override;
     void notify() override; // be called by system to make move
-    std::vector<Point> &getState(); // query the move made by bot
+    moveNode getState(); // query the move made by bot
     
     
     

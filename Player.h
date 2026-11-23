@@ -14,6 +14,6 @@ class Player: public Subject, public Observer, public Moves{
     Player(Subject *sys);
     ~Player() override;
     void notify() override; // be called by system to make move
-    std::vector<Point> &getState() override; // query the move made by Player
+    moveNode getState() override; // query the move made by Player
 };
 #endif

@@ -153,6 +153,7 @@ int main(){ // input check
         }
         validate.setPlayers(whiteP, blackP);
         sys.gameStart();
+        board.display();
       }
     } 
     else if (command == "resign"){
@@ -198,6 +199,7 @@ int main(){ // input check
           sys.notifyBlack(move);
         }
       }
+      board.display();
     }
     
     else if (command == "setup"){
@@ -246,7 +248,13 @@ int main(){ // input check
           sys.equal(color); //color is either white or black
         }
         else if(command == "done"){
-          sys.finishSetup(); //finishSetup must validate the board
+          try{
+            sys.finishSetup(); //finishSetup must validate the board
+          }
+          catch(runtime_error r){
+            cerr << r.what() << endl;
+            continue;
+          }
           break;
         }
         else{

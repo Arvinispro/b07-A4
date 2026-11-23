@@ -15,7 +15,7 @@ std::vector<std::vector<char>> game = {
 /*      a   b   c   d   e   f   g   h    */
 };
 bool gameReady = false, whiteTurn = true;
-
+int whiteScore=0, blackScore=0;
 Point Point::operator+(const Point &y){
   return Point(row + y.row, col + y.col-'a');
 }

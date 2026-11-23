@@ -6,6 +6,7 @@
 
 extern std::vector<std::vector<char>> game; //an 8*8 chess board, called game b/c of overlapping name with 'board'
 extern bool gameReady, whiteTurn;
+extern int whiteScore, blackScore;
 struct Point{
   int row;
   char col;
