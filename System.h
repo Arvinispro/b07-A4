@@ -4,9 +4,13 @@
 #include "Subject.h"
 #include "Util.h"
 #include <vector>
+#include <optional>
 
 class System: public Subject, public Observer{
   Subject *validate; //subject
+  std::vector<Point> move;
+  std::optional<char> promote;
+  
   public:
   
     System(Subject *validate);
