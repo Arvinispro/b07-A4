@@ -1,21 +1,92 @@
 #include "System.h"
 #include "Util.h"
 #include <vector>
+#include <optional>
+#include <stdexcept>
+
 /*System has the following functionalities:
   1. Notify white and black to make moves
   2. Check the game state when a move is applied
   3. Initialize the game by constructing white, black, validate, and board*/
 
-System::System(Subject *valitdate){
+System::System(Subject *valitdate): validate{validate}{
   //construct
-  //subject->attach(this);
+  if(validate) valitdate->attach(this);
 }
 System::~System(){
-  // subject->detach(this);
+  if(validate) validate->detach(this);
 
   //destruct
 }
-std::vector<Point> &System::getState(){} //if not used, can be deleted
+moveNode System::getState(){
+  return moveNode{move=this->move, promote=this->promote};
+} //if not used, can be deleted
+
+void System::notifyWhite(const std::vector<Point> move){
+  if(move.size() > 0){
+    this -> promote = std::nullopt;
+    this->move = move;
+    this -> observers[0] ->notify();
+  }
+} // no promotion
+void System::notifyWhite(const std::vector<Point> move, const char promote){
+  if(move.size() > 0 && promote){
+    this -> promote = promote;
+    this->move = move;
+    this -> observers[0] ->notify();
+  }
+} // promotion
+void System::notifyBlack(const std::vector<Point> move){
+  if(move.size() > 0){
+    this -> promote = std::nullopt;
+    this->move = move;
+    this -> observers[1] ->notify();
+  }
+} // no promotion
+void System::notifyBlack(const std::vector<Point> move, const char promote){
+  if(move.size() > 0 && promote){
+    this -> promote = promote;
+    this->move = move;
+    this -> observers[1] ->notify();
+  }
+}
+bool validateGame(){
+  // one white and black king
+  int wk=0, bk=0;
+  for(int i=0; i<game.size(); ++i){
+    for(auto piece:game[i]){
+      if(i==0 || i==7){
+        // no pawns at row 1 or 8
+        if(piece == 'p' || piece == 'P') return false;
+      }
+      if(piece=='k'){
+        ++bk;
+        continue;
+      }
+      else if(piece=='K'){
+        ++wk;
+        continue;
+      }
+    }
+  }
+  if(wk!=1 || bk!=1) return false;
+  
+  // neither kings are in check
+  // could get help from dylan
+}
+auto resetGame(){
+  return std::vector<std::vector<char>>{
+/*8*/ {'r','n','b','q','k','b','n','r'},
+/*7*/ {'p','p','p','p','p','p','p','p'},
+/*6*/ {' ','_',' ','_',' ','_',' ','_'},
+/*5*/ {'_',' ','_',' ','_',' ','_',' '},
+/*4*/ {' ','_',' ','_',' ','_',' ','_'},
+/*3*/ {'_',' ','_',' ','_',' ','_',' '},
+/*2*/ {'P','P','P','P','P','P','P','P'},
+/*1*/ {'R','N','B','Q','K','B','N','R'}
+/*      a   b   c   d   e   f   g   h    */
+};
+}
 void System::notify(){// get notified by validator to check game status, if game ends, must set gameReady back to false
   if(/*checkmate*/){
     if(whiteTurn){// move is done by black
@@ -25,31 +96,35 @@ void System::notify(){// get notified by validator to check game status, if game
       //white win
     }
     gameReady = false;
+    game = resetGame();
   }
   else if('draw'){
       //draw and end game
       gameReady = false;
+      game = resetGame();
   }
   else{
     //keep going
   }
 } 
-                      //(ie. if someone wins after the latest move, game is over)
-void System::notifyWhite(const Point &piece, const Point &position, const char &promote){ //{set move into state, white->notify()}
-  //white -> notify(); //white in observers
-}
-void System::notifyBlack(const Point &piece, const Point &position, const char &promote){//{set move into state, black->notify()}
-  //black -> notify(); //black in observers
-}
-void System::gameStart(){ //start the game, make gameReady = true, notify board::display()
+//(ie. if someone wins after the latest move, game is over)
+void System::gameStart(){ //start the game, make gameReady = true
+  if(validateGame){
+    whiteScore=0, blackScore=0;
+    //initialize game, some initializations have been done in main.cc
+    gameReady = true;
+  }
   
-  //initialize game, some initializations have been done in main.cc
-  gameReady = true;
-  //display
+
+
 } 
 void System::resign(){ //set gameReady=false
+  if(whiteTurn) ++blackScore; //white resigned
+  else ++whiteScore;
+  whiteTurn = !whiteTurn;
   //resign
   gameReady = false;
+  game = resetGame();
 } 
 void System::equal(std::string &colour){ // set up the colour
   if(colour == "white") whiteTurn = true;
@@ -57,5 +132,7 @@ void System::equal(std::string &colour){ // set up the colour
 }
 void System::finishSetup(){
   //Validate the final board in setup mode
-
+  if(!validateGame){
+    throw std::runtime_error{"Current setup is invalid"};
+  }
 } 

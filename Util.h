@@ -2,14 +2,21 @@
 #define UTIL_H
 #include <iostream>
 #include <vector>
+#include <optional>
+
 extern std::vector<std::vector<char>> game; //an 8*8 chess board, called game b/c of overlapping name with 'board'
 extern bool gameReady, whiteTurn;
+extern int whiteScore, blackScore;
 struct Point{
   int row;
   char col;
   Point operator+(const Point &y); //adding two points
   Point &operator+=(const Point &y); //adding two points
   
+};
+struct moveNode{
+  std::vector<Point> move;
+  std::optional<char> promote;
 };
 std::istream &operator>>(std::istream &in, Point &move);
 #endif
