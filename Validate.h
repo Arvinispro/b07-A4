@@ -27,6 +27,7 @@ class Validate : public Subject, public Observer {
   bool isLegalFor(Point from, Point to, bool white, char promotion) const;
   bool hasAnyLegalMove(bool white) const;
 
+  friend class System;
 public:
   Validate();
   ~Validate() override;

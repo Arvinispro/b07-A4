@@ -2,15 +2,16 @@
 #define COMPUTER_H
 #include "Subject.h"
 #include "Observer.h"
+#include "Validate.h" //ComputerMove requires validate and board
 #include "Moves.h"
 #include "Util.h"
 #include <vector>
 
 class Computer: public Subject, public Observer, public Moves{
   Subject *sys; //subject
+  Validate validate;
   int level;
-  Point lastPiece;
-  Point lastMove; //these are passed to validater
+  moveNode move; //these are passed to validater
 
   //there might be more functions for levels of computer
   public:

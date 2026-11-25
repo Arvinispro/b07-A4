@@ -3,6 +3,7 @@
 #include <vector>
 #include <optional>
 #include <stdexcept>
+#include "Validate.h"
 
 /*System has the following functionalities:
   1. Notify white and black to make moves
@@ -23,34 +24,40 @@ moveNode System::getState(){
 } //if not used, can be deleted
 
 void System::notifyWhite(const std::vector<Point> move){
-  if(move.size() > 0){
+  if(move.size() > 0){ // might not need to check
     this -> promote = std::nullopt;
     this->move = move;
-    this -> observers[0] ->notify();
+    // this -> observers[0] ->notify();
   }
+  this -> observers[0] ->notify();
 } // no promotion
-void System::notifyWhite(const std::vector<Point> move, const char promote){
+void System::notifyWhite(const std::vector<Point> move, const std::optional<char> promote){
   if(move.size() > 0 && promote){
     this -> promote = promote;
     this->move = move;
-    this -> observers[0] ->notify();
+    // this -> observers[0] ->notify();
   }
-} // promotion
+  this -> observers[0] ->notify();
+} 
+// promotion
 void System::notifyBlack(const std::vector<Point> move){
   if(move.size() > 0){
     this -> promote = std::nullopt;
     this->move = move;
-    this -> observers[1] ->notify();
+    // this -> observers[1] ->notify();
   }
+  this -> observers[1] ->notify();
 } // no promotion
-void System::notifyBlack(const std::vector<Point> move, const char promote){
+void System::notifyBlack(const std::vector<Point> move, const std::optional<char> promote){
   if(move.size() > 0 && promote){
     this -> promote = promote;
     this->move = move;
-    this -> observers[1] ->notify();
+    // this -> observers[1] ->notify();
   }
+  this -> observers[1] ->notify();
+
 }
-bool validateGame(){
+bool System::validateGame(){
   // one white and black king
   int wk=0, bk=0;
   for(int i=0; i<game.size(); ++i){
@@ -71,10 +78,10 @@ bool validateGame(){
   }
   if(wk!=1 || bk!=1) return false;
   
-  // neither kings are in check
-  // could get help from dylan
+  if(validate->inCheck(true) || validate -> inCheck(false)) return false; //either in check we negate
+  return true;
 }
-auto resetGame(){
+auto System::resetGame(){
   return std::vector<std::vector<char>>{
 /*8*/ {'r','n','b','q','k','b','n','r'},
 /*7*/ {'p','p','p','p','p','p','p','p'},
@@ -87,29 +94,50 @@ auto resetGame(){
 /*      a   b   c   d   e   f   g   h    */
 };
 }
+void System::gameSummary(){
+  std::cout << "Summary" << std::endl;
+  std::cout << "White:" << whiteScore << "Black:" << blackScore<< std::endl;
+
+}
 void System::notify(){// get notified by validator to check game status, if game ends, must set gameReady back to false
-  if(/*checkmate*/){
-    if(whiteTurn){// move is done by black
-      // black win
-    }
-    else{
-      //white win
-    }
-    gameReady = false;
-    game = resetGame();
-  }
-  else if('draw'){
-      //draw and end game
+  
+  if(whiteTurn){// move is done by black
+    // black win
+    if(validate -> isCheckmate(true)){ 
+      ++blackScore;
+      std::cout << "Black won!" << std::endl;
+      gameSummary();
       gameReady = false;
       game = resetGame();
+    }
+    if(validate -> isStalemate(true)){ 
+      std::cout << "Draw" << std::endl;
+      gameSummary();
+      gameReady = false;
+      game = resetGame();
+    }
   }
-  else{
-    //keep going
+  else{ // move is done by white
+    //white win
+    if(validate -> isCheckmate(false)){ 
+      ++whiteScore;
+      std::cout << "White won!" << std::endl;
+      gameSummary();
+      gameReady = false;
+      game = resetGame();
+    }
+    if(validate -> isStalemate(false)){  //check black stalemate that caused by white's move
+      std::cout << "Draw" << std::endl;
+      gameSummary();
+      gameReady = false;
+      game = resetGame();
+    }
   }
+
 } 
 //(ie. if someone wins after the latest move, game is over)
 void System::gameStart(){ //start the game, make gameReady = true
-  if(validateGame){
+  if(validateGame()){
     whiteScore=0, blackScore=0;
     //initialize game, some initializations have been done in main.cc
     gameReady = true;
@@ -132,7 +160,7 @@ void System::equal(std::string &colour){ // set up the colour
 }
 void System::finishSetup(){
   //Validate the final board in setup mode
-  if(!validateGame){
+  if(!validateGame()){
     throw std::runtime_error{"Current setup is invalid"};
   }
 } 

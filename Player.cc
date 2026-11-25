@@ -12,6 +12,6 @@ Player::~Player(){
 void Player::notify(){ // be called by system to make move
   //make moves
 } 
-std::vector<Point> &Player::getState(){ // query the move made by Player
+moveNode Player::getState(){ // query the move made by Player
   // return <lastPiece, lastMove>;
 } 

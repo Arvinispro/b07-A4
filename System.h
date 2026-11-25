@@ -5,14 +5,16 @@
 #include "Util.h"
 #include <vector>
 #include <optional>
+#include "Validate.h"
 
 class System: public Subject, public Observer{
-  Subject *validate; //subject
+  Validate *validate; //subject
   std::vector<Point> move;
   std::optional<char> promote;
 
   bool validateGame();
   auto resetGame();
+  void gameSummary();
   public:
   
     System(Subject *validate);
@@ -21,9 +23,9 @@ class System: public Subject, public Observer{
     void notify() override; // get notified by validator to check game status, if game ends, must set gameReady back to false
                           //(ie. if someone wins after the latest move, game is over)
     void notifyWhite(const std::vector<Point> move); // no promotion
-    void notifyWhite(const std::vector<Point> move, const char promote); // promotion
+    void notifyWhite(const std::vector<Point> move, const std::optional<char> promote); // promotion
     void notifyBlack(const std::vector<Point> move); // no promotion
-    void notifyBlack(const std::vector<Point> move, const char promote); // promotion
+    void notifyBlack(const std::vector<Point> move, const std::optional<char> promote); // promotion
 
     void gameStart(); //start the game, make gameReady = true, notify board::display()
     void resign(); //set gameReady=false

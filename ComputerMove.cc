@@ -4,6 +4,7 @@
 #include <cctype>
 #include <cstdlib>
 #include <vector>
+#include <stdexcept>
 
 namespace chess {
 namespace {
@@ -156,14 +157,14 @@ LegalMove randomMove(const std::vector<LegalMove> &moves, std::mt19937 &random) 
 
 }
 
-std::optional<LegalMove> chooseComputerMove(const Board &board, const Validate &validate,
+LegalMove chooseComputerMove(const Board &board, const Validate &validate,
                                            bool white, int level, std::mt19937 &random) {
     if (level < 1 || level > 3) {
-        return std::nullopt;
+        throw std::invalid_argument{"level must be 1, 2, 3"};
     }
     const std::vector<LegalMove> moves = validate.legalMoves(white);
     if (moves.empty()) {
-        return std::nullopt;
+        throw std::logic_error{"No legal moves"};
     }
     if (level == 1) {
         return randomMove(moves, random);

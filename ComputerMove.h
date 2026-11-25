@@ -8,7 +8,7 @@
 namespace chess {
 
 // Returns no move if this side has no legal moves.
-std::optional<LegalMove> chooseComputerMove(const Board &board, const Validate &validate,
+LegalMove chooseComputerMove(const Board &board, const Validate &validate,
                                            bool white, int level, std::mt19937 &random);
 
 }
