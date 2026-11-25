@@ -125,7 +125,7 @@ void Validate::setPlayers(Subject *white, Subject *black) {
   if (p2 && p2 != p1) p2->attach(this);
 }
 
-vector<Point> &Validate::getState() { return state; }
+moveNode Validate::getState() { return state; } //debug
 
 void Validate::notify() {
   validate();
@@ -364,7 +364,4 @@ vector<LegalMove> Validate::legalMoves(bool white) const {
 }
 Board &Validate::getBoard(){
   return *board;
-}
-void Validate::setBoard(Board *brd){
-  this -> board = brd;
 }
