@@ -49,6 +49,7 @@ public:
   std::vector<LegalMove> legalMoves(bool white) const;
   void resetRuleState(bool standardGame = true);
   Board &getBoard();
+  void setBoard(Board *board);
 };
 
 #endif

@@ -62,6 +62,7 @@ int main(){ // input check
   Validate validate;
   System sys{&validate};
   Board board{&validate};
+  validate.setBoard(&board);
   Subject *whiteP=nullptr, *blackP=nullptr;
   bool whiteComp=false, blackComp=false;
   

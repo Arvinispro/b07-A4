@@ -365,3 +365,6 @@ vector<LegalMove> Validate::legalMoves(bool white) const {
 Board &Validate::getBoard(){
   return *board;
 }
+void Validate::setBoard(Board *brd){
+  this -> board = brd;
+}
