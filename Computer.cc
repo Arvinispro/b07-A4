@@ -31,7 +31,7 @@ void Computer::notify(){ // be called by system to make move
     std::cerr << r.what() << std::endl; //no legal move should be caught in system
     move = moveNode{std::vector<Point>({}), 'z'};
   }
-
+  notifyObservers();
 
 } 
 moveNode Computer::getState(){ // query the move made by bot
