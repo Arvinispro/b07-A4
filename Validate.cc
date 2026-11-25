@@ -362,3 +362,6 @@ vector<LegalMove> Validate::legalMoves(bool white) const {
   }
   return moves;
 }
+Board &Validate::getBoard(){
+  return *board;
+}
