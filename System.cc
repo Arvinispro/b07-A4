@@ -10,7 +10,7 @@
   2. Check the game state when a move is applied
   3. Initialize the game by constructing white, black, validate, and board*/
 
-System::System(Subject *valitdate): validate{validate}{
+System::System(Subject *valitdate): Subject({}), validate{validate}{
   //construct
   if(validate) valitdate->attach(this);
 }
@@ -60,7 +60,7 @@ void System::notifyBlack(const std::vector<Point> move, const std::optional<char
 bool System::validateGame(){
   // one white and black king
   int wk=0, bk=0;
-  for(int i=0; i<game.size(); ++i){
+  for(std::size_t i=0; i<game.size(); ++i){
     for(auto piece:game[i]){
       if(i==0 || i==7){
         // no pawns at row 1 or 8
