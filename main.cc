@@ -216,7 +216,7 @@ int main(){ // input check
             if(!allowed.find(piece)) throw invalid_argument{"Invalid piece"};
 
           }
-          catch(invalid_argument r) {
+          catch(invalid_argument &r) {
             cin.clear();
             cerr << r.what() << endl;
             continue;
@@ -228,7 +228,7 @@ int main(){ // input check
           try{
             cin >> piece ;
           }
-          catch(invalid_argument r) {
+          catch(invalid_argument &r) {
             cin.clear();
             cerr << r.what() << endl;
             continue;
@@ -251,7 +251,7 @@ int main(){ // input check
           try{
             sys.finishSetup(); //finishSetup must validate the board
           }
-          catch(runtime_error r){
+          catch(runtime_error &r){
             cerr << r.what() << endl;
             continue;
           }
