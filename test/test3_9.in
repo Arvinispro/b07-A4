@@ -1,0 +1,673 @@
+game human human
+move f2 f3
+move e7 e5
+move g2 g4
+move d8 h4
+game human human
+move e2 e4
+move e7 e5
+move f1 c4
+move b8 c6
+move d1 h5
+move g8 f6
+move h5 f7
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move d7 d6
+move f1 c4
+move c8 g4
+move b1 c3
+move g7 g6
+move f3 e5
+move g4 d1
+move c4 f7
+move e8 e7
+move c3 d5
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move b8 c6
+resign
+game human computer [1]
+move e2 e4
+move
+move g1 f3
+move
+resign
+setup
+- b1
+- c1
+- d1
+- f1
+- g1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- f8
+- g8
++ K e1
++ R a1
++ k e8
++ r h8
+= white
+done
+game human human
+move a1 a4
+move h8 h5
+move a4 b4
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+resign
+game human human
+move f2 f3
+move e7 e5
+move g2 g4
+move d8 h4
+game human human
+move e2 e4
+move e7 e5
+move f1 c4
+move b8 c6
+move d1 h5
+move g8 f6
+move h5 f7
+game computer [9] human
+game computer [2] human
+move
+move b8 c6
+move
+move g8 f6
+move
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move d7 d6
+move f1 c4
+move c8 g4
+move b1 c3
+move g7 g6
+move f3 e5
+move g4 d1
+move c4 f7
+move e8 e7
+move c3 d5
+game human human
+move e2 e3
+move a7 a5
+move d1 h5
+move a8 a6
+move h5 a5
+move h7 h5
+move h2 h4
+move a6 h6
+move a5 c7
+move f7 f6
+move c7 d7
+move e8 f7
+move d7 b7
+move d8 d3
+move b7 b8
+move d3 h7
+move b8 c8
+move f7 g6
+move c8 e6
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move b8 c6
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+resign
+game computer [3] computer [1]
+move
+move
+move
+resign
+game human human
+move f2 f3
+move e7 e5
+move g2 g4
+move d8 h4
+game human human
+move e2 e4
+move e7 e5
+move f1 c4
+move b8 c6
+move d1 h5
+move g8 f6
+move h5 f7
+setup
+- b1
+- c1
+- d1
+- f1
+- g1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- f8
+- g8
++ K e1
++ R a1
++ k e8
++ r h8
+= white
+done
+game human human
+move a1 a4
+move h8 h5
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move d7 d6
+move f1 c4
+move c8 g4
+move b1 c3
+move g7 g6
+move f3 e5
+move g4 d1
+move c4 f7
+move e8 e7
+move c3 d5
+game computer [9] human
+game human computer [1]
+move e2 e4
+move
+move g1 f3
+move
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move b8 c6
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+resign
+game human human
+move f2 f3
+move e7 e5
+move g2 g4
+move d8 h4
+game human human
+move e2 e3
+move a7 a5
+move d1 h5
+move a8 a6
+move h5 a5
+move h7 h5
+move h2 h4
+move a6 h6
+move a5 c7
+move f7 f6
+move c7 d7
+move e8 f7
+move d7 b7
+move d8 d3
+move b7 b8
+move d3 h7
+move b8 c8
+move f7 g6
+move c8 e6
+game computer [2] human
+move
+move b8 c6
+move
+move g8 f6
+move
+resign
+game human human
+move e2 e4
+move e7 e5
+move f1 c4
+move b8 c6
+move d1 h5
+move g8 f6
+move h5 f7
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move d7 d6
+move f1 c4
+move c8 g4
+move b1 c3
+move g7 g6
+move f3 e5
+move g4 d1
+move c4 f7
+move e8 e7
+move c3 d5
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move b8 c6
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+resign
+game computer [9] human
+setup
+- b1
+- c1
+- d1
+- f1
+- g1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- f8
+- g8
++ K e1
++ R a1
++ k e8
++ r h8
+= white
+done
+game human human
+move a1 a4
+move h8 h5
+move a4 b4
+resign
+game human human
+move f2 f3
+move e7 e5
+move g2 g4
+move d8 h4
+game human human
+move e2 e4
+move e7 e5
+move f1 c4
+move b8 c6
+move d1 h5
+move g8 f6
+move h5 f7
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move d7 d6
+move f1 c4
+move c8 g4
+move b1 c3
+move g7 g6
+move f3 e5
+move g4 d1
+move c4 f7
+move e8 e7
+move c3 d5
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move b8 c6
+resign
+game computer [3] computer [1]
+move
+move
+move
+resign
+game human human
+move e2 e3
+move a7 a5
+move d1 h5
+move a8 a6
+move h5 a5
+move h7 h5
+move h2 h4
+move a6 h6
+move a5 c7
+move f7 f6
+move c7 d7
+move e8 f7
+move d7 b7
+move d8 d3
+move b7 b8
+move d3 h7
+move b8 c8
+move f7 g6
+move c8 e6
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+resign
+game human human
+move f2 f3
+move e7 e5
+move g2 g4
+move d8 h4
+game human human
+move e2 e4
+move e7 e5
+move f1 c4
+move b8 c6
+move d1 h5
+move g8 f6
+move h5 f7
+game computer [9] human
+game human computer [1]
+move e2 e4
+move
+move g1 f3
+move
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move d7 d6
+move f1 c4
+move c8 g4
+move b1 c3
+move g7 g6
+move f3 e5
+move g4 d1
+move c4 f7
+move e8 e7
+move c3 d5
+setup
+- b1
+- c1
+- d1
+- f1
+- g1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- f8
+- g8
++ K e1
++ R a1
++ k e8
++ r h8
+= white
+done
+game human human
+move a1 a4
+move h8 h5
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move b8 c6
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+resign
+game computer [2] human
+move
+move b8 c6
+move
+move g8 f6
+move
+resign
+game human human
+move f2 f3
+move e7 e5
+move g2 g4
+move d8 h4
+game human human
+move e2 e4
+move e7 e5
+move f1 c4
+move b8 c6
+move d1 h5
+move g8 f6
+move h5 f7
+game human human
+move e2 e3
+move a7 a5
+move d1 h5
+move a8 a6
+move h5 a5
+move h7 h5
+move h2 h4
+move a6 h6
+move a5 c7
+move f7 f6
+move c7 d7
+move e8 f7
+move d7 b7
+move d8 d3
+move b7 b8
+move d3 h7
+move b8 c8
+move f7 g6
+move c8 e6
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move d7 d6
+move f1 c4
+move c8 g4
+move b1 c3
+move g7 g6
+move f3 e5
+move g4 d1
+move c4 f7
+move e8 e7
+move c3 d5
+game computer [9] human
+game computer [3] computer [1]
+move
+move
+move
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move b8 c6
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+resign
+game human human
+move f2 f3
+move e7 e5
+move g2 g4
+move d8 h4
+setup
+- b1
+- c1
+- d1
+- f1
+- g1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- f8
+- g8
++ K e1
++ R a1
++ k e8
++ r h8
+= white
+done
+game human human
+move a1 a4
+move h8 h5
+move a4 b4
+resign
+game human computer [1]
+move e2 e4
+move
+move g1 f3
+move
+resign
+game human human
+move e2 e4
+move e7 e5
+move f1 c4
+move b8 c6
+move d1 h5
+move g8 f6
+move h5 f7
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move d7 d6
+move f1 c4
+move c8 g4
+move b1 c3
+move g7 g6
+move f3 e5
+move g4 d1
+move c4 f7
+move e8 e7
+move c3 d5
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+move b8 c6
+resign
+game human human
+move e2 e4
+move e7 e5
+move g1 f3
+resign
+game computer [9] human
+game human human
+move e2 e3
+move a7 a5
+move d1 h5
+move a8 a6
+move h5 a5
+move h7 h5
+move h2 h4
+move a6 h6
+move a5 c7
+move f7 f6
+move c7 d7
+move e8 f7
+move d7 b7
+move d8 d3
+move b7 b8
+move d3 h7
+move b8 c8
+move f7 g6
+move c8 e6
+game human human
+move e2 e4
+move e7 e5
+resign
+quit

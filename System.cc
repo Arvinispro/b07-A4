@@ -10,9 +10,9 @@
   2. Check the game state when a move is applied
   3. Initialize the game by constructing white, black, validate, and board*/
 
-System::System(Subject *valitdate): Subject({}), validate{validate}{
+System::System(Validate *val): Subject({}), validate{val}{
   //construct
-  if(validate) valitdate->attach(this);
+  if(validate) validate->attach(this);
 }
 System::~System(){
   if(validate) validate->detach(this);
@@ -82,6 +82,11 @@ bool System::validateGame(){
   return true;
 }
 auto System::resetGame(){
+  observers.clear();
+  gameReady = false, whiteTurn = true;
+  whiteComp=false, blackComp=false;
+  validate -> p1 = nullptr, validate -> p2 = nullptr;
+  
   return std::vector<std::vector<char>>{
 /*8*/ {'r','n','b','q','k','b','n','r'},
 /*7*/ {'p','p','p','p','p','p','p','p'},
@@ -107,13 +112,11 @@ void System::notify(){// get notified by validator to check game status, if game
       ++blackScore;
       std::cout << "Black won!" << std::endl;
       gameSummary();
-      gameReady = false;
       game = resetGame();
     }
     if(validate -> isStalemate(true)){ 
       std::cout << "Draw" << std::endl;
       gameSummary();
-      gameReady = false;
       game = resetGame();
     }
   }
@@ -123,13 +126,11 @@ void System::notify(){// get notified by validator to check game status, if game
       ++whiteScore;
       std::cout << "White won!" << std::endl;
       gameSummary();
-      gameReady = false;
       game = resetGame();
     }
     if(validate -> isStalemate(false)){  //check black stalemate that caused by white's move
       std::cout << "Draw" << std::endl;
       gameSummary();
-      gameReady = false;
       game = resetGame();
     }
   }
@@ -138,8 +139,9 @@ void System::notify(){// get notified by validator to check game status, if game
 //(ie. if someone wins after the latest move, game is over)
 void System::gameStart(){ //start the game, make gameReady = true
   if(validateGame()){
-    whiteScore=0, blackScore=0;
     //initialize game, some initializations have been done in main.cc
+    
+    // should we start the game when the config is stalemate?
     gameReady = true;
   }
   
@@ -149,9 +151,7 @@ void System::gameStart(){ //start the game, make gameReady = true
 void System::resign(){ //set gameReady=false
   if(whiteTurn) ++blackScore; //white resigned
   else ++whiteScore;
-  whiteTurn = !whiteTurn;
   //resign
-  gameReady = false;
   game = resetGame();
 } 
 void System::equal(std::string &colour){ // set up the colour
@@ -163,4 +163,5 @@ void System::finishSetup(){
   if(!validateGame()){
     throw std::runtime_error{"Current setup is invalid"};
   }
+  if(validate->isStalemate(true) || validate->isStalemate(false)) throw std::runtime_error{"Stalemate"};
 } 

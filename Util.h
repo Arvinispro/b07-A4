@@ -5,8 +5,9 @@
 #include <optional>
 
 extern std::vector<std::vector<char>> game; //an 8*8 chess board, called game b/c of overlapping name with 'board'
-extern bool gameReady, whiteTurn;
-extern int whiteScore, blackScore;
+inline bool gameReady=false, whiteTurn=true;
+inline int whiteScore=0, blackScore=0;
+inline bool whiteComp=false, blackComp=false;
 struct Point{
   int row;
   char col;

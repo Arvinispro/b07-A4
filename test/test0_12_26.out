@@ -1,0 +1,12 @@
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: game, move, setup, resign: 

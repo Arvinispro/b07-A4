@@ -1,0 +1,13 @@
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQ_BNR
+
+  abcdefgh
+select +, -, = or done: Current setup is invalid
+select +, -, = or done: game, move, setup, resign: 

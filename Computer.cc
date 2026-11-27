@@ -8,16 +8,16 @@
 
 Computer::Computer(Subject *sys, int level): Subject({}), sys{sys}, level{level}{ // set validate in the obse
   //construct
- sys->attach(this);
+ if(sys) sys->attach(this);
 } 
 Computer::~Computer(){
-  sys->detach(this);
+  if(sys) sys->detach(this);
 
   //destruct
 }
 void Computer::notify(){ // be called by system to make move
   //assuming no invalid level
-  std::mt19937 random;
+  std::mt19937 random{std::random_device{}()};
   LegalMove moveComp;
   try{
     moveComp = chess::chooseComputerMove(validate.getBoard(), validate, whiteTurn,  level, random);

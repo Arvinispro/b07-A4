@@ -1,0 +1,284 @@
+game human human
+move e2 e2
+move g1 g1
+move f1 f1
+move h1 h1
+move d1 d1
+move e1 e1
+move e3 e3
+move e2 e4
+move e7 e7
+move b8 b8
+move f8 f8
+move a8 a8
+move d8 d8
+move e8 e8
+move e6 e6
+move e7 e5
+move g1 f3
+move b8 c6
+move f1 b5
+move g8 f6
+move d2 d3
+move d7 d5
+move b1 c3
+move f8 b4
+move c3 d5
+move c3 b1
+move c1 g5
+move c6 d4
+move c6 e7
+move h7 h6
+move e4 e5
+move e4 f5
+move d3 d2
+move h2 h3
+move e5 e4
+move e5 d4
+move e5 e6
+move h6 h4
+move h6 g5
+move h3 h5
+move f3 g5
+move b4 c3
+move b2 c3
+resign
+setup
+- a1
+- b1
+- c1
+- d1
+- e1
+- f1
+- g1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- e8
+- f8
+- g8
+- h8
++ K g1
++ Q d4
++ R a4
++ B f4
++ P d2
++ P a2
++ P e4
++ k g8
++ q e7
++ r b4
++ b g5
++ p d6
++ p b6
++ p a6
+done
+game human human
+move d4 d1
+move d4 d8
+move a4 a1
+move a4 a7
+move f4 c1
+move f4 b8
+move g1 h1
+move e7 c5
+move e7 e3
+move g5 d8
+move g5 e3
+move b4 b7
+move b4 h4
+move g8 f8
+resign
+setup
+- a1
+- b1
+- c1
+- d1
+- e1
+- f1
+- g1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- e8
+- f8
+- g8
+- h8
++ K d4
++ R a1
++ k g7
++ r b8
++ n e5
++ p f6
++ N h6
++ P g5
+done
+game human human
+move a1 a7
+move g7 h6
+move g7 h7
+move g7 g6
+move d4 e5
+move a7 a1
+move b8 b4
+move d4 e4
+move d4 e5
+move d4 d5
+move g6 h7
+resign
+setup
+- a1
+- b1
+- c1
+- d1
+- e1
+- f1
+- g1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- e8
+- f8
+- g8
+- h8
++ K e4
++ Q e1
++ R h4
++ B h1
++ N d2
++ P d3
++ k e6
++ q e8
++ r a6
++ b c8
++ n d8
++ p f7
+done
+game human human
+move e4 d5
+move e4 e5
+move e4 f5
+move e1 e4
+move h4 e4
+move h1 e4
+move d2 e4
+move d3 e4
+move e1 e2
+move e6 d5
+move e6 e5
+move e6 f5
+move e8 e6
+move a6 e6
+move c8 e6
+move d8 e6
+move f7 e6
+move e8 e7
+resign
+setup
+- a1
+- b1
+- c1
+- d1
+- e1
+- f1
+- g1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- e8
+- f8
+- g8
+- h8
++ K e1
++ R e3
++ B d2
++ B b5
++ k e8
++ r e6
++ b b4
++ b d7
+done
+game human human
+move e3 d3
+move d2 c1
+move d2 c3
+move e6 d6
+move d7 c8
+move d7 c6
+move e3 e4
+move e6 e5
+move e4 f4
+move c3 b4
+resign

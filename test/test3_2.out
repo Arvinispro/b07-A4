@@ -1,0 +1,642 @@
+game, move, setup, resign: 
+White(human/comupter [level]): 
+Black(human/comupter [level]): 
+8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ p _ 
+4  _B_P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQK NR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_bqkbnr
+7 pppp_ppp
+6  _n_ _ _
+5 _ _ p _ 
+4  _B_P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQK NR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_bqkbnr
+7 pppp_ppp
+6  _n_ _ _
+5 _ _ p _Q
+4  _B_P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNB K NR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_bqkb r
+7 pppp_ppp
+6  _n_ n _
+5 _ _ p _Q
+4  _B_P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNB K NR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: White won!
+Summary
+White:1Black:0
+8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+White(human/comupter [level]): 
+Black(human/comupter [level]): 
+8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _P_ 
+2 PPPPP_PP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ p _ 
+4  _ _ _ _
+3 _ _ _P_ 
+2 PPPPP_PP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ p _ 
+4  _ _ _P_
+3 _ _ _P_ 
+2 PPPPP_ P
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: Black won!
+Summary
+White:1Black:1
+8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+White(human/comupter [level]): 
+Black(human/comupter [level]): 
+8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _N_ 
+2 PPPP PPP
+1 RNBQKB_R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 ppp _ppp
+6  _ p _ _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _N_ 
+2 PPPP PPP
+1 RNBQKB_R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 ppp _ppp
+6  _ p _ _
+5 _ _ p _ 
+4  _B_P_ _
+3 _ _ _N_ 
+2 PPPP PPP
+1 RNBQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rn qkbnr
+7 ppp _ppp
+6  _ p _ _
+5 _ _ p _ 
+4  _B_P_b_
+3 _ _ _N_ 
+2 PPPP PPP
+1 RNBQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rn qkbnr
+7 ppp _ppp
+6  _ p _ _
+5 _ _ p _ 
+4  _B_P_b_
+3 _ N _N_ 
+2 PPPP PPP
+1 R BQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rn qkbnr
+7 ppp _p_p
+6  _ p _p_
+5 _ _ p _ 
+4  _B_P_b_
+3 _ N _N_ 
+2 PPPP PPP
+1 R BQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rn qkbnr
+7 ppp _p_p
+6  _ p _p_
+5 _ _ N _ 
+4  _B_P_b_
+3 _ N _ _ 
+2 PPPP PPP
+1 R BQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rn qkbnr
+7 ppp _p_p
+6  _ p _p_
+5 _ _ N _ 
+4  _B_P_ _
+3 _ N _ _ 
+2 PPPP PPP
+1 R BbK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rn qkbnr
+7 ppp _B_p
+6  _ p _p_
+5 _ _ N _ 
+4  _ _P_ _
+3 _ N _ _ 
+2 PPPP PPP
+1 R BbK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rn q bnr
+7 ppp kB_p
+6  _ p _p_
+5 _ _ N _ 
+4  _ _P_ _
+3 _ N _ _ 
+2 PPPP PPP
+1 R BbK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: White won!
+Summary
+White:2Black:1
+8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+White(human/comupter [level]): 
+Black(human/comupter [level]): 
+8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pp_ppppp
+6  _p_ _ _
+5 _ _ _ _ 
+4  _ _P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pp_ppppp
+6  _p_ _ _
+5 _ _ _ _ 
+4  _ PP_ _
+3 _ _ _ _ 
+2 PPP_ PPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pp_ pppp
+6  _p_ _ _
+5 _ _p_ _ 
+4  _ PP_ _
+3 _ _ _ _ 
+2 PPP_ PPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pp_ pppp
+6  _p_ _ _
+5 _ _p_ _ 
+4  _ PP_ _
+3 _ N _ _ 
+2 PPP_ PPP
+1 R BQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pp_ pppp
+6  _p_ _ _
+5 _ _ _ _ 
+4  _ Pp_ _
+3 _ N _ _ 
+2 PPP_ PPP
+1 R BQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pp_ pppp
+6  _p_ _ _
+5 _ _ _ _ 
+4  _ PN_ _
+3 _ _ _ _ 
+2 PPP_ PPP
+1 R BQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_bqkbnr
+7 pp_npppp
+6  _p_ _ _
+5 _ _ _ _ 
+4  _ PN_ _
+3 _ _ _ _ 
+2 PPP_ PPP
+1 R BQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_bqkbnr
+7 pp_npppp
+6  _p_ _ _
+5 _ _ _ _ 
+4  _ PN_ _
+3 _ _ _ _ 
+2 PPP_QPPP
+1 R B KBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_bqkb r
+7 pp_npppp
+6  _p_ n _
+5 _ _ _ _ 
+4  _ PN_ _
+3 _ _ _ _ 
+2 PPP_QPPP
+1 R B KBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: White won!
+Summary
+White:3Black:1
+8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+White(human/comupter [level]): 
+Black(human/comupter [level]): 
+8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 rnbqkbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _N_ 
+2 PPPP PPP
+1 RNBQKB_R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_bqkbnr
+7 pppp_ppp
+6  _n_ _ _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _N_ 
+2 PPPP PPP
+1 RNBQKB_R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_bqkbnr
+7 pppp_ppp
+6  _n_ _ _
+5 _ _ p _ 
+4  _B_P_ _
+3 _ _ _N_ 
+2 PPPP PPP
+1 RNBQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_bqkbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ p _ 
+4  _BnP_ _
+3 _ _ _N_ 
+2 PPPP PPP
+1 RNBQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_bqkbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ N _ 
+4  _BnP_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_b_kbnr
+7 pppp_ppp
+6  _ _ _ _
+5 _ _ N q 
+4  _BnP_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_b_kbnr
+7 pppp_Npp
+6  _ _ _ _
+5 _ _ _ q 
+4  _BnP_ _
+3 _ _ _ _ 
+2 PPPP PPP
+1 RNBQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_b_kbnr
+7 pppp_Npp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _BnP_ _
+3 _ _ _ _ 
+2 PPPP PqP
+1 RNBQK _R
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_b_kbnr
+7 pppp_Npp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _BnP_ _
+3 _ _ _ _ 
+2 PPPP PqP
+1 RNBQKR_ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_b_kbnr
+7 pppp_Npp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _Bnq_ _
+3 _ _ _ _ 
+2 PPPP P P
+1 RNBQKR_ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_b_kbnr
+7 pppp_Npp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ nq_ _
+3 _ _ _ _ 
+2 PPPPBP P
+1 RNBQKR_ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: Black won!
+Summary
+White:3Black:2
+8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+game, move, setup, resign: 

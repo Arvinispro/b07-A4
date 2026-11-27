@@ -1,0 +1,1932 @@
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 R BQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 R _QKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 R _ KBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 R _ K NR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2 PPPPPPPP
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  PPPPPPP
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _PPPPPP
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ PPPPP
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _PPPP
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ PPP
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _PP
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ P
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ pppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ pppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ _ppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ _ pp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8  nbqkbnr
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8  _bqkbnr
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8  _b_kbnr
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8  _b_k_nr
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8  _b_k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8  _b_k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8  _b_k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8  _b_k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8  _b_k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: 8  _b_k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: 8  _b_k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
+Black(human/comupter [level]): 
+8  _b_k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _b_k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 P _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _b_k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4 P_ _ _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4 P_ _ _ _
+3 _ _ _ _b
+2  _ _ _ _
+1 R _ K N 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ r
+7 _ _ _ p 
+6  _ _ _ _
+5 _ _ _ _ 
+4 P_ _ _ _
+3 _ _ _ _N
+2  _ _ _ _
+1 R _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ r
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ p 
+4 P_ _ _ _
+3 _ _ _ _N
+2  _ _ _ _
+1 R _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ r
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ N 
+4 P_ _ _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 R _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ Nr
+4 P_ _ _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 R _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ Nr
+4 P_ _ _ _
+3 R _ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 R BQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 R _QKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 R _QK NR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 R _QK _R
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  PPPPPPP
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _PPPPPP
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ PPPPP
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _PPPP
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_PP
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ P
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ pppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ pppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ p pp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ p _p
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ p _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8  nbqkbnr
+7 _ _ p _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8  n qkbnr
+7 _ _ p _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8  n qk_nr
+7 _ _ p _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8  n qk_ r
+7 _ _ p _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: 8  n qk_ _
+7 _ _ p _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
+Black(human/comupter [level]): 
+8  n qk_ _
+7 _ _ p _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _P_ _
+1 R _QK _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  n qk_ _
+7 _ _ p _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _P_ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 R _QK _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  n qk_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 R _QK _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  n qk_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _Q_ 
+2  _ _ _ _
+1 R _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  n _k_ _
+7 _ _ _ _ 
+6  _ _ q _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _Q_ 
+2  _ _ _ _
+1 R _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  n _k_ _
+7 _ _ _ _ 
+6 R_ _ q _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _Q_ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 _ _ _ _ 
+6 R_n_ q _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _Q_ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 _ _ _ _ 
+6 R_n_ q _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _Q_ 
+2  _ _K_ _
+1 _ _ _ _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
+7 _ _ k _ 
+6 R_n_ q _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _Q_ 
+2  _ _K_ _
+1 _ _ _ _ 
+
+  abcdefgh
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 R BQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 R B KBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 R B K NR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 R B K _R
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  PPPPPPP
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _PPPPPP
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ PPPPP
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P PPP
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _PP
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ P
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ pppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _p_ppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _p_ pp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _p_ _p
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _p_ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 r_bqkbnr
+7 _ _p_ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 r_ qkbnr
+7 _ _p_ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 r_ _kbnr
+7 _ _p_ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 r_ _kb r
+7 _ _p_ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: 8 r_ _kb _
+7 _ _p_ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: Invalid point
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
+Black(human/comupter [level]): 
+8 r_ _kb _
+7 _ _p_ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_ _kb _
+7 _ _p_ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ P _ _
+1 R B K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_ _kb _
+7 _ _p_ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ P _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 R B K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_ _kb _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _p_ _ 
+4  _ P _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 R B K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_ _kb _
+7 _ _ _ _ 
+6  _ _ _ B
+5 _ _p_ _ 
+4  _ P _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 R _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_ _k_ _
+7 _ _ _ _ 
+6  _ _ _ b
+5 _ _p_ _ 
+4  _ P _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 R _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8 r_ _k_ _
+7 R _ _ _ 
+6  _ _ _ b
+5 _ _p_ _ 
+4  _ P _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 r _ _ _ 
+6  _ _ _ b
+5 _ _p_ _ 
+4  _ P _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 r _ _ _ 
+6  _ _ _ b
+5 _ _p_ _ 
+4  _ P _ _
+3 _ _ _ _ 
+2  _ _K_ _
+1 _ _ _ _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
+7 r _ k _ 
+6  _ _ _ b
+5 _ _p_ _ 
+4  _ P _ _
+3 _ _ _ _ 
+2  _ _K_ _
+1 _ _ _ _ 
+
+  abcdefgh
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2 PPPPPPPP
+1 RNBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2 PPPPPPPP
+1 _NBQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2 PPPPPPPP
+1 _ BQKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2 PPPPPPPP
+1 _ _QKBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2 PPPPPPPP
+1 _ _ KBNR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2 PPPPPPPP
+1 _ _ K NR
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2 PPPPPPPP
+1 _ _ K _R
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2 PPPPPPPP
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  PPPPPPP
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _PPPPPP
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ PPPPP
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _PPPP
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ PPP
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _PP
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ P
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 pppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ppppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ pppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ppppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ pppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ _ppp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ _ pp
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ _ _p
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8 rnbqkbnr
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  nbqkbnr
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _bqkbnr
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ qkbnr
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _kbnr
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_nr
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ r
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _R
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
+Black(human/comupter [level]): 
+8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 N _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
+7 _ _ k _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 N _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
+7 _ _ k _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _ _ _
+3 _N_ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ N _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ k _ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ N _ _ 
+4  _ _ _ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ k _ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _N_ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _N_ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
+7 _ _ _ _ 
+6  _ _ _ _
+5 _ _ _ _ 
+4  _ _N_ _
+3 _ _ _ _ 
+2  _ _ _ _
+1 _ _ K _ 
+
+  abcdefgh
+game, move, setup, resign: 
+game, move, setup, resign: 

@@ -17,7 +17,7 @@ class System: public Subject, public Observer{
   void gameSummary();
   public:
   
-    System(Subject *validate);
+    System(Validate *validate);
     ~System() override;
     moveNode getState() override; //might NOT be needed b/c system only notify white or black, but MUST be kept due to purely virtual
     void notify() override; // get notified by validator to check game status, if game ends, must set gameReady back to false

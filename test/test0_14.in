@@ -1,0 +1,87 @@
+foo
+help
+exit
+123
+#
++
+-
+=
+done
+GAME
+Game
+MOVE
+Move
+RESIGN
+Resign
+SETUP
+QUIT
+Quit
+move e2 e4
+resign
+game human human
+move e2 e4 extra
+move e7 e5 e5
+game human human
+move g1 f3
+setup
+done
+move b8 c6
+foo
+MOVE e2 e3
+move f1 c4
+Resign
+move g8 f6
+resign
+game human human extra tokens
+move e2 e4
+resign
+setup
+- b1
+- c1
+- d1
+- f1
+- g1
+- h1
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- a8
+- b8
+- d8
+- f8
+- g8
+game human human
+move e2 e4
+resign
+quit
+foo
+DONE
+Done
++K e1
++ Q d4
+done
+game human human
+move a2 a4
+move h7 h6
+move d4 d3
+move c8 g4
+resign
+game human human
+move e2 e4
+move e7 e5
+quit
+game human human
+move e2 e4
+resign
+quit

@@ -1,0 +1,85 @@
+game computer
+x
+game human human
+move e2 e4
+move e7 e5
+resign
+game computer human
+game computer [1] human
+move
+move g8 f6
+resign
+game human computer
+x
+game human human
+move g1 f3
+move g8 f6
+resign
+game computer [0] human
+game human human
+move b1 c3
+resign
+game human computer [4]
+game human computer [1]
+move e2 e4
+move
+resign
+game computer [10] human
+game human human
+move e2 e3
+move e7 e6
+resign
+game human computer [-1]
+game computer [2] human
+move
+move b8 c6
+resign
+game computer 2 human
+game human human
+move d2 d4
+move d7 d5
+resign
+game human computer [1
+game human human
+move e2 e4
+resign
+game computer 3] human
+game human computer [2]
+move g1 f3
+move
+resign
+game computer [a] human
+game human human
+move e2 e4
+move c7 c5
+resign
+game human computer []
+game computer [3] human
+move
+move g8 f6
+resign
+game computer high human
+game human human
+move c2 c4
+resign
+game human computer one
+game human computer [3]
+move e2 e4
+move
+resign
+game human [1] human
+game human human
+move e2 e4
+move e7 e5
+resign
+game computer [1] computer
+x
+game human human
+move g1 f3
+move b8 c6
+resign
+game computer [x] computer [1]
+game computer [1] computer [2]
+move
+move
+resign
