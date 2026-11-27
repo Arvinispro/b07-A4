@@ -1,5 +1,40 @@
 # Test Suite
 
+## Expected outputs (.out files)
+
+Each `.in` file has a `.out` file next to it, except the nine skipped files below. The `.out` is stdout and stderr merged in program order (as if run with `2>&1`), so it includes the prompts and the messages `main.cc` sends to `cerr`.
+
+How they were produced: the current source, run on every `.in`, with three scratch fixes for bugs that stop the intended behaviour (the files in your folder were not changed):
+- **`Validate::validate`** calls `tryMove(from, to)` and drops the promotion letter, so every promotion is rejected. The scratch copy passes `move.promote.value_or('z')`.
+- **`resetRuleState`** is never called when a game starts, so castling rights and the en passant square carry over from the previous game. The scratch copy calls `validate->resetRuleState(false)` in `System::gameStart`.
+- **`main.cc` lines 250 and 271** read the moving piece with `game[row - 1][...]`, but row 0 of `game` is rank 8, so the lookup is mirrored and promotion is mis-detected. The scratch copy uses `game[8 - row][...]`.
+
+Every move the program accepted or rejected was also checked against python-chess (1,788 attempts, no differences). Running every file twice gave identical output.
+
+What the outputs contain (from the current print statements):
+- The prompt `game, move, setup, resign: ` is printed before every top-level command, and once more at the end of input (no trailing newline).
+- The board is printed once per `move` command (also for a rejected move), once at game start, and after every `+` and `-` in setup.
+- When a game ends by checkmate or stalemate the output is `White won!`, `Black won!` or `Draw`, then `Summary` and `White:xBlack:y`, then the standard board. The board comes last because `System::notify` resets it before `Board::notify` draws.
+- `resign` prints nothing. `quit` and end of input print no final score.
+- A draw adds no points (the scores are ints), so the 0.5-per-draw figures in Test 3 are the intended scores, not what is printed.
+- `done` is also rejected with `Stalemate` when either colour has no legal move and is not in check.
+
+Computer moves are skipped. A bot picks its move at random (level 1) or at random among its preferred moves (levels 2 and 3), so the board printed after a bot move cannot be fixed in advance. Any file that makes a bot move has no `.out`:
+
+| File | Why it is skipped |
+|---|---|
+| test0_1 | every bot pairing and level, with bots moving |
+| test0_9 | games from a setup with bots moving |
+| test0_10 | session j starts a bot game after a repaired setup |
+| test0_11 | the control games at the end start bots and move them |
+| test2_7 | a bare `move` for a bot's turn |
+| test2_16 | forced bot replies, but several blocks leave the bot a choice (promotion piece, two or three moves) |
+| test2_17 | bot level 2 and 3 behaviour, with preferred sets of one or two moves |
+| test3_8 | eight bot-vs-bot games run to the end |
+| test3_9 | 61 games that include bot games |
+
+Files that only create a bot and never move it (test0_12_7, test0_12_8, test0_12_9) are deterministic and do have a `.out`. The Test 1 outputs are `test1_1.out` to `test1_6.out`.
+
 ## Test 0: Game and setup commands
 
 Checks starting games (`game`) and the setup commands (`setup`, `+`, `-`, `=`, `done`).
@@ -11,23 +46,23 @@ Rules shared by every test 0 file:
 - Bot games use a bare `move` for the bot's turn. Bot moves are random, so each game has at most 3 bot moves and the human moves stay legal against any bot reply.
 - Level is written with brackets: `computer [1]`, `[2]` or `[3]`.
 
-| Test | What it checks | File | Size |
-|---|---|---|---|
-| 0.1 | Player/bot vs player/bot: every pairing and level | test0_1.in | 17 games |
-| 0.2 | Legal setups | test0_2.in | 10 setups |
-| 0.3 | Illegal setups: every rule and combinations, repaired one rule at a time | test0_3.in | 19 ladders, 76 `done` lines |
-| 0.4 | Correct `+` | test0_4.in | 4 sessions |
-| 0.5 | Incorrect `+` (must change nothing) | test0_5.in | 4 sessions |
-| 0.6 | Correct `-` | test0_6.in | 6 sessions |
-| 0.7 | Incorrect `-` (must change nothing) | test0_7.in | 4 sessions |
-| 0.8 | `=` sets the side to move first | test0_8.in | about 25 sessions |
-| 0.9 | Start a game after a legal setup | test0_9.in | 10 games |
-| 0.10 | Try to start a game after an illegal setup | test0_10.in | 10 sessions |
-| 0.11 | `game` with a missing or wrong bot level | test0_11.in | 34 `game` lines |
-| 0.12 | End of input (EOF) at every prompt | test0_12_1.in to test0_12_26.in | 26 tiny files |
-| 0.13 | Odd whitespace and split tokens | test0_13.in | 88 lines |
-| 0.14 | Unknown commands, extra tokens, `quit`, commands at the wrong time | test0_14.in | 87 lines |
-| 0.15 | Board display | test0_15.in | 153 lines |
+| Test | What it checks | File | Size | Expected output |
+|---|---|---|---|---|
+| 0.1 | Player/bot vs player/bot: every pairing and level | test0_1.in | 17 games | skipped: bot moves are random |
+| 0.2 | Legal setups | test0_2.in | 10 setups | `test0_2.out` |
+| 0.3 | Illegal setups: every rule and combinations, repaired one rule at a time | test0_3.in | 19 ladders, 76 `done` lines | `test0_3.out` |
+| 0.4 | Correct `+` | test0_4.in | 4 sessions | `test0_4.out` |
+| 0.5 | Incorrect `+` (must change nothing) | test0_5.in | 4 sessions | `test0_5.out` |
+| 0.6 | Correct `-` | test0_6.in | 6 sessions | `test0_6.out` |
+| 0.7 | Incorrect `-` (must change nothing) | test0_7.in | 4 sessions | `test0_7.out` |
+| 0.8 | `=` sets the side to move first | test0_8.in | about 25 sessions | `test0_8.out` |
+| 0.9 | Start a game after a legal setup | test0_9.in | 10 games | skipped: bot moves are random |
+| 0.10 | Try to start a game after an illegal setup | test0_10.in | 10 sessions | skipped: bot moves are random |
+| 0.11 | `game` with a missing or wrong bot level | test0_11.in | 34 `game` lines | skipped: bot moves are random |
+| 0.12 | End of input (EOF) at every prompt | test0_12_1.in to test0_12_26.in | 26 tiny files | `test0_12_1.out` to `test0_12_26.out` |
+| 0.13 | Odd whitespace and split tokens | test0_13.in | 88 lines | `test0_13.out` |
+| 0.14 | Unknown commands, extra tokens, `quit`, commands at the wrong time | test0_14.in | 87 lines | `test0_14.out` |
+| 0.15 | Board display | test0_15.in | 153 lines | `test0_15.out` |
 
 ### Test 0.1: Player / bot vs player / bot
 
@@ -355,25 +390,25 @@ Rules shared by every test 2 file:
 - When the program meets an invalid point it prints an error, throws away the rest of that line, and prompts again. So the line after every invalid-point line is a retry written as `<from> <to>` with no `move` prefix.
 - No setup mode, no castling, no en passant.
 
-| Test | What it checks | File | Size |
-|---|---|---|---|
-| 2.1 | Out-of-bounds `from` and/or `to` | test2_1.in | 24 invalid lines |
-| 2.2 | Malformed points (`6e`, `19`) | test2_2.in | 26 invalid lines |
-| 2.3 | In check: the next move must escape | test2_3.in | 62 moves (34 legal, 28 illegal) |
-| 2.4 | Checkmate | test2_4.in | 11 blocks, each built with `setup` |
-| 2.5 | Draw by stalemate | test2_5.in | 4 games |
-| 2.6 | Resign | test2_6.in | 8 games |
-| 2.7 | `move` for a player vs a bot | test2_7.in | 7 games |
-| 2.8 | Controlling the other colour's pieces | test2_8.in | 42 moves (17 legal, 25 rejected) |
-| 2.9 | Castling | test2_9.in | 18 blocks, 654 lines |
-| 2.10 | En passant | test2_10.in | 22 blocks, 861 lines |
-| 2.11 | Promotion letters and promotion edge cases | test2_11.in | 929 lines |
-| 2.12 | Mate and stalemate reached by special moves | test2_12.in | 12 blocks, 524 lines |
-| 2.13 | Games that start with no legal move | test2_13.in | 9 blocks, 351 lines |
-| 2.14 | Degenerate moves (same square, adjacent kings, pins) | test2_14.in | 284 lines |
-| 2.15 | Other draw rules (material, repetition, fifty-move) | test2_15.in | 434 lines |
-| 2.16 | Bots where the reply is forced | test2_16.in | 16 blocks, 665 lines |
-| 2.17 | Bot level 2 and 3 behaviour | test2_17.in | 16 blocks, 706 lines |
+| Test | What it checks | File | Size | Expected output |
+|---|---|---|---|---|
+| 2.1 | Out-of-bounds `from` and/or `to` | test2_1.in | 24 invalid lines | `test2_1.out` |
+| 2.2 | Malformed points (`6e`, `19`) | test2_2.in | 26 invalid lines | `test2_2.out` |
+| 2.3 | In check: the next move must escape | test2_3.in | 62 moves (34 legal, 28 illegal) | `test2_3.out` |
+| 2.4 | Checkmate | test2_4.in | 11 blocks, each built with `setup` | `test2_4.out` |
+| 2.5 | Draw by stalemate | test2_5.in | 4 games | `test2_5.out` |
+| 2.6 | Resign | test2_6.in | 8 games | `test2_6.out` |
+| 2.7 | `move` for a player vs a bot | test2_7.in | 7 games | skipped: bot moves are random |
+| 2.8 | Controlling the other colour's pieces | test2_8.in | 42 moves (17 legal, 25 rejected) | `test2_8.out` |
+| 2.9 | Castling | test2_9.in | 18 blocks, 656 lines | `test2_9.out` |
+| 2.10 | En passant | test2_10.in | 22 blocks, 861 lines | `test2_10.out` |
+| 2.11 | Promotion letters and promotion edge cases | test2_11.in | 929 lines | `test2_11.out` |
+| 2.12 | Mate and stalemate reached by special moves | test2_12.in | 12 blocks, 525 lines | `test2_12.out` |
+| 2.13 | Setups where a side has no (or only one) legal move | test2_13.in | 10 blocks, 437 lines | `test2_13.out` |
+| 2.14 | Degenerate moves (same square, adjacent kings, pins) | test2_14.in | 284 lines | `test2_14.out` |
+| 2.15 | Other draw rules (material, repetition, fifty-move) | test2_15.in | 434 lines | `test2_15.out` |
+| 2.16 | Bots where the reply is forced | test2_16.in | 16 blocks, 665 lines | skipped: bot moves are random |
+| 2.17 | Bot level 2 and 3 behaviour | test2_17.in | 16 blocks, 706 lines | skipped: bot moves are random |
 
 ### Test 2.1: Out of bounds
 
@@ -498,9 +533,9 @@ Every rejected attempt is followed by a legal move from the side that was to pla
 | 61 to 184 | Queen-side castle with `b1` attacked (legal); a castle that gives check; king-side castle with the rook attacked (legal) |
 | 185 to 274 | A two-square king move that isn't castling (rejected); rook moved away and back (king side rejected, queen side still legal) |
 | 275 to 361 | A piece between king and rook (own bishop, enemy knight); king in check (rejected) |
-| 362 to 482 | King passes through an attacked square; king lands on an attacked square |
-| 483 to 563 | Rook captured, rook missing |
-| 564 to 654 | King not on `e1` trying `d1 f1`/`d1 b1`; a king that has moved loses its rights; no second castle after castling |
+| 362 to 484 | King passes through an attacked square; king lands on an attacked square |
+| 485 to 565 | Rook captured, rook missing |
+| 566 to 656 | King not on `e1` trying `d1 f1`/`d1 b1`; a king that has moved loses its rights; no second castle after castling |
 
 ### Test 2.10: En passant
 
@@ -548,23 +583,26 @@ Every block is built with `setup`. A letter always follows the move on the same 
 | 263 to 308 | Same position, under-promotion to a rook avoids stalemate; ends with `resign` | no result |
 | 309 to 351 | Stalemate with a pinned knight and a blocked pawn | Draw |
 | 352 to 392 | Stalemate by a capture | Draw |
-| 393 to 434 | Check with one escape, then stalemate | Draw |
-| 435 to 479 | Mate where the mated side's en passant doesn't help | White wins |
-| 480 to 524 | Smothered mate by a promoted knight | White wins |
+| 393 to 435 | Check with one escape (`b4 d4`, reply `a1 a2`), then stalemate (`d4 c3`) | Draw |
+| 436 to 480 | Mate where the mated side's en passant doesn't help | White wins |
+| 481 to 525 | Smothered mate by a promoted knight | White wins |
 
-### Test 2.13: Games that start with no legal move
+### Test 2.13: Setups where a side has no (or only one) legal move
 
-| Lines | Block | Position / expectation |
-|---|---|---|
-| 1 to 38 | 1 | White stalemated and to move; unspecified start, then `resign` |
-| 39 to 76 | 2 | Black stalemated and to move (`= black`); unspecified start, then `resign` |
-| 77 to 114 | 3 | White stalemated with a pinned knight and a blocked pawn; unspecified start, then `resign` |
-| 115 to 156 | 4 | Black stalemated and to move while white has moves: four attempts rejected (two black king moves into attack, two white pieces out of turn) |
-| 157 to 197 | 5 | White has exactly one legal move (`h1 g1`); played, game continues |
-| 198 to 235 | 6a | Stalemate by the first move (`d3 g6`): Draw |
-| 236 to 273 | 6b | Mate by the first move (`a8 a1`, black moves first): Black wins |
-| 274 to 313 | 7 | Only legal moves are the four a7 promotions (`move a7 a8 N`); game continues |
-| 314 to 351 | 8 | Mate in one (`a1 a8`): White wins |
+`done` is rejected with `Current setup is invalid` (kings, back-rank pawns or a king in check) or, if that passes, with `Stalemate` when EITHER colour has no legal move and is not in check, whoever is to move. After a rejected `done` the program stays in setup mode, so each such block repairs the board and issues `done` again.
+
+| Lines | Block | What it tests | Rejected `done` |
+|---|---|---|---|
+| 1 to 44 | 1 | White stalemated (K h1 vs black K g3 + Q f2), then repaired and played | line 38: `Stalemate` |
+| 45 to 88 | 2 | The mirror with black stalemated (`= black`) | line 82: `Stalemate` |
+| 89 to 135 | 3 | White stalemated by a pinned knight and a blocked pawn | line 130: `Stalemate` |
+| 136 to 179 | 4 | The non-moving side (black) stalemated while white has many moves | line 173: `Stalemate` |
+| 180 to 228 | 5 | A king in check and the other side stalemated: invalid first, then `Stalemate`, then accepted | line 219: `Current setup is invalid`; line 222: `Stalemate` |
+| 229 to 271 | 6 | The side to move has exactly one legal move (`h1 h2`); played, game continues | none |
+| 272 to 311 | 7 | The first move stalemates black (`f1 f7`) | none; `Draw` |
+| 312 to 351 | 8 | Mate in one (`a1 a8`) | none; White wins |
+| 352 to 394 | 9 | Only legal moves are the four a7 promotions (`move a7 a8 N`) | none |
+| 395 to 437 | 10 | Black mate in one (`e4 f2`, smothered, `= black`) | none; Black wins |
 
 ### Test 2.14: Degenerate moves
 
@@ -634,17 +672,17 @@ The level 3 blocks (352 to 528) are deterministic only under one reading of "avo
 
 Checks that the program keeps working across several games in one run. Scores accumulate across the run (win or resign-win = 1, draw = 0.5 each); the expected running score is in a comment after each game. Games are `game human human` except in 3.8 and 3.9, which also use bots and setups.
 
-| Test | What it checks | File | Size |
-|---|---|---|---|
-| 3.1 | A second and third game after the first, with the score display | test3_1.in | 3 games |
-| 3.2 | Five normal games | test3_2.in | 5 games |
-| 3.3 | A normal game, then a valid setup, then a second game | test3_3.in | 9 games |
-| 3.4 | A game after a valid setup, then a normal game | test3_4.in | 6 games |
-| 3.5 | Games after a win, a loss, a draw and a resign | test3_5.in | 6 games |
-| 3.6 | Final score when the program is quit | test3_6.in | 53 lines |
-| 3.7 | Final score when the input ends (EOF) | test3_7.in | 42 lines |
-| 3.8 | Full bot-vs-bot games run to the end | test3_8.in | 2420 lines |
-| 3.9 | 61 games in one run | test3_9.in | 673 lines |
+| Test | What it checks | File | Size | Expected output |
+|---|---|---|---|---|
+| 3.1 | A second and third game after the first, with the score display | test3_1.in | 3 games | `test3_1.out` |
+| 3.2 | Five normal games | test3_2.in | 5 games | `test3_2.out` |
+| 3.3 | A normal game, then a valid setup, then a second game | test3_3.in | 9 games | `test3_3.out` |
+| 3.4 | A game after a valid setup, then a normal game | test3_4.in | 6 games | `test3_4.out` |
+| 3.5 | Games after a win, a loss, a draw and a resign | test3_5.in | 6 games | `test3_5.out` |
+| 3.6 | Final score when the program is quit | test3_6.in | 53 lines | `test3_6.out` |
+| 3.7 | Final score when the input ends (EOF) | test3_7.in | 42 lines | `test3_7.out` |
+| 3.8 | Full bot-vs-bot games run to the end | test3_8.in | 2420 lines | skipped: bot moves are random |
+| 3.9 | 61 games in one run | test3_9.in | 673 lines | skipped: bot moves are random |
 
 ### Test 3.1: Second game and score display
 

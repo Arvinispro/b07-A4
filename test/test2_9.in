@@ -431,7 +431,8 @@ setup
 + r a8
 + r h8
 + R d1
-+ K h1
+- h1
++ K g1
 = black
 done
 game human human
@@ -472,7 +473,8 @@ setup
 + r h8
 + R c1
 + R g1
-+ K a2
+- a2
++ K b2
 = black
 done
 game human human
