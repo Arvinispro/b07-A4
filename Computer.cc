@@ -8,10 +8,10 @@
 
 Computer::Computer(Subject *sys, int level): Subject({}), sys{sys}, level{level}{ // set validate in the obse
   //construct
- sys->attach(this);
+ if(sys) sys->attach(this);
 } 
 Computer::~Computer(){
-  sys->detach(this);
+  if(sys) sys->detach(this);
 
   //destruct
 }

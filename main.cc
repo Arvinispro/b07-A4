@@ -77,7 +77,7 @@ int main(){ // input check
 
     if(command == "game"){
       while(!gameReady){
-        cout << "White(human/comupter [level]): ";
+        cout << "White(human/comupter [level]): " << endl;
         // the user will keep input their choice for players until they are valid
         cin >> player;
         if(cin.eof()) break;
@@ -115,7 +115,7 @@ int main(){ // input check
           getline(cin, dummy);
           break;
         }
-        cout << "Black(human/comupter [level]): ";
+        cout << "Black(human/comupter [level]): " << endl;
         cin >> player;
         if(cin.eof()) break;
         if(cin.fail()){
@@ -279,7 +279,7 @@ int main(){ // input check
           sys.notifyBlack(move);
         }
       }
-      board.display();
+      // board.display();
     }
     
     

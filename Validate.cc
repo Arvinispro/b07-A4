@@ -110,15 +110,17 @@ void simulate(Grid &board, Point from, Point to, char promotion) {
 Validate::Validate() : Subject({}) {}
 
 Validate::~Validate() {
-  if (p1) p1->detach(this);
-  if (p2 && p2 != p1) p2->detach(this);
+  // if (p1) p1->detach(this);
+  // if (p2 && p2 != p1) p2->detach(this);
+  //no need for any of these because players are destructed already.
 }
 
 void Validate::setBoard(Board *b) { board = b; }
 
 void Validate::setPlayers(Subject *white, Subject *black) {
-  if (p1) p1->detach(this);
-  if (p2 && p2 != p1) p2->detach(this);
+  // if (p1) p1->detach(this); 
+  // if (p2 && p2 != p1) p2->detach(this);
+  //players die before setPlayers()
   p1 = white;
   p2 = black;
   if (p1) p1->attach(this);
