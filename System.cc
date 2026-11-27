@@ -85,7 +85,7 @@ auto System::resetGame(){
   observers.clear();
   gameReady = false, whiteTurn = true;
   whiteComp=false, blackComp=false;
-  validate -> p1 = nullptr, validate -> p2 = nullptr;
+  validate -> setPlayers(nullptr, nullptr);
   
   return std::vector<std::vector<char>>{
 /*8*/ {'r','n','b','q','k','b','n','r'},
