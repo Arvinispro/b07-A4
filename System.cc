@@ -163,4 +163,5 @@ void System::finishSetup(){
   if(!validateGame()){
     throw std::runtime_error{"Current setup is invalid"};
   }
+  if(validate->isStalemate(true) || validate->isStalemate(false)) throw std::runtime_error{"Stalemate"};
 } 

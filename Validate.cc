@@ -134,9 +134,9 @@ void Validate::notify() {
 void Validate::validate() {
   Subject *player = whiteTurn ? p1 : p2;
   if (!player) return;
-  vector<Point> &move = player->getState();
-  if (move.size() < 2) return;
-  tryMove(move[0], move[1]);
+  moveNode move = player->getState();
+  if (move.move.size() < 2) return;
+  tryMove(move.move[0], move.move[1]);
 }
 
 void Validate::resetRuleState(bool standardGame) {
@@ -153,7 +153,7 @@ void Validate::resetRuleState(bool standardGame) {
     blackCastleKing = blackCastleQueen = false;
   }
   enPassantTarget = Point{0, 'a'};
-  state.clear();
+  state.move.clear();
 }
 
 bool Validate::isLegalFor(Point from, Point to, bool white, char promote) const {
@@ -224,7 +224,7 @@ bool Validate::isLegal(Point from, Point to, char promotion) const {
 }
 
 bool Validate::tryMove(Point from, Point to, char promotion) {
-  state.clear();
+  state.move.clear();
   if (!isLegal(from, to, promotion)) {
     notifyObservers();
     return false;
@@ -260,7 +260,7 @@ bool Validate::tryMove(Point from, Point to, char promotion) {
   }
 
   board->applyUnchecked(from, to, promotion);
-  state = {from, to};
+  state.move = {from, to};
   whiteTurn = !whiteTurn;
   notifyObservers();
   return true;
