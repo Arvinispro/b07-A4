@@ -1,4 +1,5 @@
-game, move, setup, resign: White(human/comupter [level]): 
+game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8 rnbqkbnr
 7 pppppppp
@@ -10,6 +11,7 @@ Black(human/comupter [level]):
 1 RNBQKBNR
 
   abcdefgh
-game, move, setup, resign: from: to: Input the piece and position again
+game, move, setup, resign: 
+from: to: Input the piece and position again
 Input is not complete
 game, move, setup, resign: 

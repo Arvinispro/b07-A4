@@ -1,4 +1,5 @@
-game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -378,7 +379,8 @@ select +, -, = or done: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _ _
 7 P P _P_P
@@ -390,7 +392,8 @@ Black(human/comupter [level]):
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_ _ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_ _ _ _
 7 _ P _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -400,7 +403,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_ _ _ _
+game, move, setup, resign: 
+from: to: 8 Q_ _ _ _
 7 _ P _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -410,7 +414,8 @@ game, move, setup, resign: from: to: 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_R_ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_R_ _ _
 7 _ _ _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -420,7 +425,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_R_ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_R_ _ _
+game, move, setup, resign: 
+from: to: 8 Q_R_ _ _
 7 _ _ _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -430,7 +436,8 @@ game, move, setup, resign: from: to: 8 Q_R_ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_R_ N _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_R_ N _
 7 _ _ _ _P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -440,7 +447,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_R_ N _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_R_ N _
+game, move, setup, resign: 
+from: to: 8 Q_R_ N _
 7 _ _ _ _P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -450,7 +458,8 @@ game, move, setup, resign: from: to: 8 Q_R_ N _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_R_ N B
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_R_ N B
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -460,7 +469,9 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_R_ N B
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -840,7 +851,8 @@ select +, -, = or done: 8  _ _ _k_
 1 _ _ _ _ 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _k_
 7 _ _ _ _ 
@@ -852,7 +864,8 @@ Black(human/comupter [level]):
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
 5 _ _ _ _ 
@@ -862,7 +875,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
 1 q _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _k_
+game, move, setup, resign: 
+from: to: 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -872,7 +886,8 @@ game, move, setup, resign: from: to: 8  _ _ _k_
 1 q _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -882,7 +897,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
 1 q r _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _k_
+game, move, setup, resign: 
+from: to: 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
 5 _ _ _ _ 
@@ -892,7 +908,8 @@ game, move, setup, resign: from: to: 8  _ _ _k_
 1 q r _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
 5 _ _ _ _ 
@@ -902,7 +919,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
 1 q r _n_ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _k_
+game, move, setup, resign: 
+from: to: 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -912,7 +930,8 @@ game, move, setup, resign: from: to: 8  _ _ _k_
 1 q r _n_ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -922,7 +941,9 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
 1 q r _n_b
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1342,7 +1363,8 @@ select +, -, = or done: 8 r_b_ _nr
 1 _ _ _ K 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8 r_b_ _nr
 7 _P_P_PP 
@@ -1354,7 +1376,8 @@ Black(human/comupter [level]):
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_b_ _nr
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_b_ _nr
 7 _ _P_PP 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1364,7 +1387,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_b_ _nr
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_b_ _nr
+game, move, setup, resign: 
+from: to: 8 Q_b_ _nr
 7 _ _P_PP 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1374,7 +1398,8 @@ game, move, setup, resign: from: to: 8 Q_b_ _nr
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_b_ _nR
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_b_ _nR
 7 _ _P_P_ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1384,7 +1409,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_b_ _nR
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_b_ _nR
+game, move, setup, resign: 
+from: to: 8 Q_b_ _nR
 7 _ _P_P_ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1394,7 +1420,8 @@ game, move, setup, resign: from: to: 8 Q_b_ _nR
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_N_ _nR
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_N_ _nR
 7 _ _ _P_ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1404,7 +1431,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_N_ _nR
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_N_ _nR
+game, move, setup, resign: 
+from: to: 8 Q_N_ _nR
 7 _ _ _P_ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1414,7 +1442,8 @@ game, move, setup, resign: from: to: 8 Q_N_ _nR
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_N_ _BR
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_N_ _BR
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1424,7 +1453,9 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_N_ _BR
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1844,7 +1875,8 @@ select +, -, = or done: 8  _ _ _k_
 1 R B _ NR
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _k_
 7 _ _ _ _ 
@@ -1856,7 +1888,8 @@ Black(human/comupter [level]):
 1 R B _ NR
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -1866,7 +1899,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
 1 q B _ NR
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _k_
+game, move, setup, resign: 
+from: to: 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
 5 _ _ _ _ 
@@ -1876,7 +1910,8 @@ game, move, setup, resign: from: to: 8  _ _ _k_
 1 q B _ NR
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
 5 _ _ _ _ 
@@ -1886,7 +1921,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
 1 q B _ Nr
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _k_
+game, move, setup, resign: 
+from: to: 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -1896,7 +1932,8 @@ game, move, setup, resign: from: to: 8  _ _ _k_
 1 q B _ Nr
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -1906,7 +1943,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
 1 q n _ Nr
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _k_
+game, move, setup, resign: 
+from: to: 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
 5 _ _ _ _ 
@@ -1916,7 +1954,8 @@ game, move, setup, resign: from: to: 8  _ _ _k_
 1 q n _ Nr
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
 5 _ _ _ _ 
@@ -1926,7 +1965,9 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
 1 q n _ br
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2306,7 +2347,8 @@ select +, -, = or done: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _ _
 7 P P _P_P
@@ -2318,7 +2360,8 @@ Black(human/comupter [level]):
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): Input promotion again
+game, move, setup, resign: 
+from: to: promote to(QRNB): Input promotion again
 promote to(QRNB): 8 Q_ _ _ _
 7 _ P _P_P
 6  _ _ _ _
@@ -2329,7 +2372,8 @@ promote to(QRNB): 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_ _ _ _
+game, move, setup, resign: 
+from: to: 8 Q_ _ _ _
 7 _ P _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2339,7 +2383,8 @@ game, move, setup, resign: from: to: 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): Input promotion again
+game, move, setup, resign: 
+from: to: promote to(QRNB): Input promotion again
 promote to(QRNB): 8 Q_R_ _ _
 7 _ _ _P_P
 6  _ _ _ _
@@ -2350,7 +2395,8 @@ promote to(QRNB): 8 Q_R_ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_R_ _ _
+game, move, setup, resign: 
+from: to: 8 Q_R_ _ _
 7 _ _ _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2360,7 +2406,8 @@ game, move, setup, resign: from: to: 8 Q_R_ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): Input promotion again
+game, move, setup, resign: 
+from: to: promote to(QRNB): Input promotion again
 promote to(QRNB): 8 Q_R_ N _
 7 _ _ _ _P
 6  _ _ _ _
@@ -2371,7 +2418,8 @@ promote to(QRNB): 8 Q_R_ N _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_R_ N _
+game, move, setup, resign: 
+from: to: 8 Q_R_ N _
 7 _ _ _ _P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2381,7 +2429,8 @@ game, move, setup, resign: from: to: 8 Q_R_ N _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): Input promotion again
+game, move, setup, resign: 
+from: to: promote to(QRNB): Input promotion again
 promote to(QRNB): 8 Q_R_ N B
 7 _ _ _ _ 
 6  _ _ _ _
@@ -2392,7 +2441,9 @@ promote to(QRNB): 8 Q_R_ N B
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2772,7 +2823,8 @@ select +, -, = or done: 8  _ _ _k_
 1 _ _ _ _ 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _k_
 7 _ _ _ _ 
@@ -2784,7 +2836,8 @@ Black(human/comupter [level]):
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): Input promotion again
+game, move, setup, resign: 
+from: to: promote to(QRNB): Input promotion again
 promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
@@ -2795,7 +2848,8 @@ promote to(QRNB): 8  _ _ _k_
 1 q _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _k_
+game, move, setup, resign: 
+from: to: 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -2805,7 +2859,8 @@ game, move, setup, resign: from: to: 8  _ _ _k_
 1 q _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): Input promotion again
+game, move, setup, resign: 
+from: to: promote to(QRNB): Input promotion again
 promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
@@ -2816,7 +2871,8 @@ promote to(QRNB): 8  _ _ _k_
 1 q n _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _k_
+game, move, setup, resign: 
+from: to: 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
 5 _ _ _ _ 
@@ -2826,7 +2882,8 @@ game, move, setup, resign: from: to: 8  _ _ _k_
 1 q n _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): Input promotion again
+game, move, setup, resign: 
+from: to: promote to(QRNB): Input promotion again
 promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
@@ -2837,7 +2894,8 @@ promote to(QRNB): 8  _ _ _k_
 1 q n _r_ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _k_
+game, move, setup, resign: 
+from: to: 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -2847,7 +2905,8 @@ game, move, setup, resign: from: to: 8  _ _ _k_
 1 q n _r_ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): Input promotion again
+game, move, setup, resign: 
+from: to: promote to(QRNB): Input promotion again
 promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
@@ -2858,7 +2917,9 @@ promote to(QRNB): 8  _ _ _k_
 1 q n _r_b
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3218,7 +3279,8 @@ select +, -, = or done: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _ _
 7 P P _ _ 
@@ -3230,7 +3292,8 @@ Black(human/comupter [level]):
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): Input promotion again
+game, move, setup, resign: 
+from: to: promote to(QRNB): Input promotion again
 promote to(QRNB): Input promotion again
 promote to(QRNB): 8 Q_ _ _ _
 7 _ P _ _ 
@@ -3242,7 +3305,8 @@ promote to(QRNB): 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_ _ _ _
+game, move, setup, resign: 
+from: to: 8 Q_ _ _ _
 7 _ P _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3252,7 +3316,8 @@ game, move, setup, resign: from: to: 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): Input promotion again
+game, move, setup, resign: 
+from: to: promote to(QRNB): Input promotion again
 promote to(QRNB): Input promotion again
 promote to(QRNB): Input promotion again
 promote to(QRNB): Input promotion again
@@ -3266,7 +3331,9 @@ promote to(QRNB): 8 Q_R_ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3626,7 +3693,8 @@ select +, -, = or done: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _ _
 7 P P _ _ 
@@ -3638,7 +3706,8 @@ Black(human/comupter [level]):
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_ _ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_ _ _ _
 7 _ P _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3648,7 +3717,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_ _ _ _
+game, move, setup, resign: 
+from: to: 8 Q_ _ _ _
 7 _ P _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3658,7 +3728,8 @@ game, move, setup, resign: from: to: 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_N_ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_N_ _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3668,7 +3739,9 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_N_ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4028,7 +4101,8 @@ select +, -, = or done: 8  _ _ _k_
 1 _ _ _ _ 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _k_
 7 _ _ _ _ 
@@ -4040,7 +4114,8 @@ Black(human/comupter [level]):
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ K _ _
 5 _ _ _ _ 
@@ -4050,7 +4125,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
 1 b _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _k_
+game, move, setup, resign: 
+from: to: 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -4060,7 +4136,8 @@ game, move, setup, resign: from: to: 8  _ _ _k_
 1 b _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _k_
 7 _ _ _ _ 
 6  _ _K_ _
 5 _ _ _ _ 
@@ -4070,7 +4147,9 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _k_
 1 b r _ _ 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4430,7 +4509,8 @@ select +, -, = or done: 8  _ _ _ r
 1 _ K _ _ 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _ r
 7 _P_ _ _ 
@@ -4442,7 +4522,8 @@ Black(human/comupter [level]):
 1 _ K _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _r_ _ _
+game, move, setup, resign: 
+from: to: 8  _r_ _ _
 7 _P_ _ _ 
 6  _ _ _ _
 5 k _ _ _ 
@@ -4452,7 +4533,8 @@ game, move, setup, resign: from: to: 8  _r_ _ _
 1 _ K _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _Q_ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _Q_ _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 k _ _ _ 
@@ -4462,7 +4544,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _Q_ _ _
 1 _ K _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _Q_ _ _
+game, move, setup, resign: 
+from: to: 8  _Q_ _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4472,7 +4555,9 @@ game, move, setup, resign: from: to: 8  _Q_ _ _
 1 _ K _ _ 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4832,7 +4917,8 @@ select +, -, = or done: 8  _k_ _ _
 1 _ _ _ _R
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _k_ _ _
 7 _ _ _ _ 
@@ -4844,7 +4930,8 @@ Black(human/comupter [level]):
 1 _ _ _ _R
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _k_ _ _
+game, move, setup, resign: 
+from: to: 8  _k_ _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4854,7 +4941,8 @@ game, move, setup, resign: from: to: 8  _k_ _ _
 1 _ R _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _k_ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _k_ _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4864,7 +4952,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _k_ _ _
 1 _ q _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _k_ _ _
+game, move, setup, resign: 
+from: to: 8  _k_ _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4874,7 +4963,9 @@ game, move, setup, resign: from: to: 8  _k_ _ _
 1 _ q _ _ 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5234,7 +5325,8 @@ select +, -, = or done: 8  _ _k_ _
 1 _ _ _ K 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _k_ _
 7 P _ _ _P
@@ -5246,7 +5338,8 @@ Black(human/comupter [level]):
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_ _k_ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_ _k_ _
 7 _ _ _ _P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5256,7 +5349,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_ _k_ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_ _ _ _
+game, move, setup, resign: 
+from: to: 8 Q_ _ _ _
 7 _ _k_ _P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5266,7 +5360,9 @@ game, move, setup, resign: from: to: 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5616,7 +5712,8 @@ select +, -, = or done: 8  _k_ _ _
 1 _ _ _ K 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _k_ _ _
 7 _ _ _ _P
@@ -5628,7 +5725,8 @@ Black(human/comupter [level]):
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _k_ _ R
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _k_ _ R
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5638,7 +5736,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _k_ _ R
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ R
+game, move, setup, resign: 
+from: to: 8  _ _ _ R
 7 _ k _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5648,7 +5747,9 @@ game, move, setup, resign: from: to: 8  _ _ _ R
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6008,7 +6109,8 @@ select +, -, = or done: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _ _
 7 _ _P_k_ 
@@ -6020,7 +6122,8 @@ Black(human/comupter [level]):
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ N _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ N _ _
 7 _ _ _k_ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6030,7 +6133,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ N _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ N _ _
+game, move, setup, resign: 
+from: to: 8  _ N _ _
 7 _ _ _ _ 
 6  _ _ _k_
 5 _ _ _ _ 
@@ -6040,7 +6144,9 @@ game, move, setup, resign: from: to: 8  _ N _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6420,7 +6526,8 @@ select +, -, = or done: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _k_ _
 7 _ _p_ _ 
@@ -6432,7 +6539,8 @@ Black(human/comupter [level]):
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 P _p_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6442,7 +6550,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 P _ _ _ 
 6  _ _ _ _
 5 _ _p_ _ 
@@ -6452,7 +6561,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 P _ _ _ 
 6  _ _ _ _
 5 _ _p_ _ 
@@ -6462,7 +6572,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 P _ _ _ 
 6  _ _ _ _
 5 _ _p_ _ 
@@ -6472,7 +6583,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_ _k_ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _p_ _ 
@@ -6482,7 +6594,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_ _ _ _
+game, move, setup, resign: 
+from: to: 8 Q_ _ _ _
 7 _ _ _k_ 
 6  _ _ _ _
 5 _ _p_ _ 
@@ -6492,7 +6605,9 @@ game, move, setup, resign: from: to: 8 Q_ _ _ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6872,7 +6987,8 @@ select +, -, = or done: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _ _
 7 P P _P_P
@@ -6884,7 +7000,8 @@ Black(human/comupter [level]):
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Q_ _ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Q_ _ _ _
 7 _ P _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6894,7 +7011,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 Q_ _ _ _
+game, move, setup, resign: 
+from: to: 8 Q_ _ _ _
 7 _ P _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6904,7 +7022,8 @@ game, move, setup, resign: from: to: 8 Q_ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ P _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6914,7 +7033,8 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ P _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6924,7 +7044,8 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _N_ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _N_ _ _
 7 _ _ _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6934,7 +7055,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _N_ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _N_ _ _
+game, move, setup, resign: 
+from: to: 8  _N_ _ _
 7 _ _ _P_P
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6944,7 +7066,8 @@ game, move, setup, resign: from: to: 8  _N_ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ _ _P_P
 6  N _ _ _
 5 _ _ _ _ 
@@ -6954,7 +7077,8 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ _ _P_P
 6  N _ _ _
 5 _ _ _ _ 
@@ -6964,7 +7088,8 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ B _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ B _
 7 _ _ _ _P
 6  N _ _ _
 5 _ _ _ _ 
@@ -6974,7 +7099,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ B _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ B _
+game, move, setup, resign: 
+from: to: 8  _ _ B _
 7 _ _ _ _P
 6  N _ _ _
 5 _ _ _ _ 
@@ -6984,7 +7110,8 @@ game, move, setup, resign: from: to: 8  _ _ B _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ _ B _P
 6  N _ _ _
 5 _ _ _ _ 
@@ -6994,7 +7121,8 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ _ B _P
 6  N _ _ _
 5 _ _ _ _ 
@@ -7004,7 +7132,8 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _ R
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _ R
 7 _ _ B _ 
 6  N _ _ _
 5 _ _ _ _ 
@@ -7014,7 +7143,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _ R
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ R
+game, move, setup, resign: 
+from: to: 8  _ _ _ R
 7 _ _ B _ 
 6  N _ _ _
 5 _ _ _ _ 
@@ -7024,7 +7154,8 @@ game, move, setup, resign: from: to: 8  _ _ _ R
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ _ B _ 
 6  N _ _ _
 5 _ _ _ _R
@@ -7034,7 +7165,9 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7434,7 +7567,8 @@ select +, -, = or done: 8 Rn N _ _
 1 _ _ _ K 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8 Rn N _ _
 7 PP_P_ _ 
@@ -7446,7 +7580,8 @@ Black(human/comupter [level]):
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Rn N _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Rn N _ _
 7 PP_P_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7456,7 +7591,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Rn N _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Rn N _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Rn N _ _
 7 PP_P_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7466,7 +7602,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Rn N _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Rn N _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Rn N _ _
 7 PP_P_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7476,7 +7613,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Rn N _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Rn N _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Rn N _ _
 7 PP_P_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7486,7 +7624,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Rn N _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 Rn N _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 Rn N _ _
 7 PP_P_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7496,7 +7635,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 Rn N _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8 RQ N _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8 RQ N _ _
 7 _P_P_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7506,7 +7646,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8 RQ N _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 RQ N _ _
+game, move, setup, resign: 
+from: to: 8 RQ N _ _
 7 _P_P_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7516,7 +7657,9 @@ game, move, setup, resign: from: to: 8 RQ N _ _
 1 _ _ _ K 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7896,7 +8039,8 @@ select +, -, = or done: 8  _b_ _ _
 1 _ _ _ _ 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _b_ _ _
 7 K _P_ _r
@@ -7908,7 +8052,8 @@ Black(human/comupter [level]):
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _b_ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _b_ _ _
 7 K _P_ _r
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7918,7 +8063,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _b_ _ _
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _b_ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _b_ _ _
 7 K _P_ _r
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7928,7 +8074,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _b_ _ _
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _b_ _ _
+game, move, setup, resign: 
+from: to: 8  _b_ _ _
 7 K _P_ _r
 6  _ _ _ _
 5 _ _ _ _ 
@@ -7938,7 +8085,9 @@ game, move, setup, resign: from: to: 8  _b_ _ _
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -8308,7 +8457,8 @@ select +, -, = or done: 8  _ _ _ _
 1 _ B _ _ 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _ _ _
 7 _ _ K _ 
@@ -8320,7 +8470,8 @@ Black(human/comupter [level]):
 1 _ B _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _ _
 7 _ _ K _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -8330,7 +8481,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _ _
 1 _ B _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _ _
+game, move, setup, resign: 
+from: to: promote to(QRNB): 8  _ _ _ _
 7 _ _ K _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -8340,7 +8492,8 @@ game, move, setup, resign: from: to: promote to(QRNB): 8  _ _ _ _
 1 _ B _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ _ K _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -8350,4 +8503,5 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ B _ _ 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: 
+game, move, setup, resign: 
+game, move, setup, resign: 

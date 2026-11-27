@@ -69,7 +69,7 @@ int main(){ // input check
   unique_ptr<Subject> whiteP=nullptr, blackP=nullptr; //with unique_ptr, the content will auto delete when refer to new stuff. whiteP and blackP are owned by main.
   
   while (true) {
-    cout << "game, move, setup, resign: ";
+    cout << "game, move, setup, resign: " << endl;
     cin >> command;
 
     // Terminate the program if enter 'quit' or reach EOF.

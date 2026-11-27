@@ -1,4 +1,5 @@
-game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -396,7 +397,8 @@ select +, -, = or done: 8  _b_k_ r
 1 R _ K N 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _b_k_ r
 7 _ _ _ p 
@@ -408,7 +410,8 @@ Black(human/comupter [level]):
 1 R _ K N 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _b_k_ r
+game, move, setup, resign: 
+from: to: 8  _b_k_ r
 7 _ _ _ p 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -418,7 +421,8 @@ game, move, setup, resign: from: to: 8  _b_k_ r
 1 R _ K N 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _b_k_ r
+game, move, setup, resign: 
+from: to: 8  _b_k_ r
 7 _ _ _ p 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -428,7 +432,8 @@ game, move, setup, resign: from: to: 8  _b_k_ r
 1 R _ K N 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ r
+game, move, setup, resign: 
+from: to: 8  _ _k_ r
 7 _ _ _ p 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -438,7 +443,8 @@ game, move, setup, resign: from: to: 8  _ _k_ r
 1 R _ K N 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ r
+game, move, setup, resign: 
+from: to: 8  _ _k_ r
 7 _ _ _ p 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -448,7 +454,8 @@ game, move, setup, resign: from: to: 8  _ _k_ r
 1 R _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ r
+game, move, setup, resign: 
+from: to: 8  _ _k_ r
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ p 
@@ -458,7 +465,8 @@ game, move, setup, resign: from: to: 8  _ _k_ r
 1 R _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ r
+game, move, setup, resign: 
+from: to: 8  _ _k_ r
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ N 
@@ -468,7 +476,8 @@ game, move, setup, resign: from: to: 8  _ _k_ r
 1 R _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ Nr
@@ -478,7 +487,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 R _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ Nr
@@ -488,7 +498,9 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -819,7 +831,8 @@ select +, -, = or done: Invalid point
 select +, -, = or done: Invalid point
 select +, -, = or done: Invalid point
 select +, -, = or done: Invalid point
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  n qk_ _
 7 _ _ p _ 
@@ -831,7 +844,8 @@ Black(human/comupter [level]):
 1 R _QK _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  n qk_ _
+game, move, setup, resign: 
+from: to: 8  n qk_ _
 7 _ _ p _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -841,7 +855,8 @@ game, move, setup, resign: from: to: 8  n qk_ _
 1 R _QK _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  n qk_ _
+game, move, setup, resign: 
+from: to: 8  n qk_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ p _ 
@@ -851,7 +866,8 @@ game, move, setup, resign: from: to: 8  n qk_ _
 1 R _QK _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  n qk_ _
+game, move, setup, resign: 
+from: to: 8  n qk_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ p _ 
@@ -861,7 +877,8 @@ game, move, setup, resign: from: to: 8  n qk_ _
 1 R _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  n _k_ _
+game, move, setup, resign: 
+from: to: 8  n _k_ _
 7 _ _ _ _ 
 6  _ _ q _
 5 _ _ p _ 
@@ -871,7 +888,8 @@ game, move, setup, resign: from: to: 8  n _k_ _
 1 R _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  n _k_ _
+game, move, setup, resign: 
+from: to: 8  n _k_ _
 7 _ _ _ _ 
 6 R_ _ q _
 5 _ _ p _ 
@@ -881,7 +899,8 @@ game, move, setup, resign: from: to: 8  n _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 _ _ _ _ 
 6 R_n_ q _
 5 _ _ p _ 
@@ -891,7 +910,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 _ _ _ _ 
 6 R_n_ q _
 5 _ _ p _ 
@@ -901,7 +921,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ _ k _ 
 6 R_n_ q _
 5 _ _ p _ 
@@ -911,7 +932,9 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1239,7 +1262,8 @@ select +, -, = or done: Invalid point
 select +, -, = or done: Invalid point
 select +, -, = or done: Invalid point
 select +, -, = or done: Invalid point
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8 r_ _kb _
 7 _ _p_ _ 
@@ -1251,7 +1275,8 @@ Black(human/comupter [level]):
 1 R B K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 r_ _kb _
+game, move, setup, resign: 
+from: to: 8 r_ _kb _
 7 _ _p_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1261,7 +1286,8 @@ game, move, setup, resign: from: to: 8 r_ _kb _
 1 R B K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 r_ _kb _
+game, move, setup, resign: 
+from: to: 8 r_ _kb _
 7 _ _p_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1271,7 +1297,8 @@ game, move, setup, resign: from: to: 8 r_ _kb _
 1 R B K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 r_ _kb _
+game, move, setup, resign: 
+from: to: 8 r_ _kb _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _p_ _ 
@@ -1281,7 +1308,8 @@ game, move, setup, resign: from: to: 8 r_ _kb _
 1 R B K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 r_ _kb _
+game, move, setup, resign: 
+from: to: 8 r_ _kb _
 7 _ _ _ _ 
 6  _ _ _ B
 5 _ _p_ _ 
@@ -1291,7 +1319,8 @@ game, move, setup, resign: from: to: 8 r_ _kb _
 1 R _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 r_ _k_ _
+game, move, setup, resign: 
+from: to: 8 r_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ b
 5 _ _p_ _ 
@@ -1301,7 +1330,8 @@ game, move, setup, resign: from: to: 8 r_ _k_ _
 1 R _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8 r_ _k_ _
+game, move, setup, resign: 
+from: to: 8 r_ _k_ _
 7 R _ _ _ 
 6  _ _ _ b
 5 _ _p_ _ 
@@ -1311,7 +1341,8 @@ game, move, setup, resign: from: to: 8 r_ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 r _ _ _ 
 6  _ _ _ b
 5 _ _p_ _ 
@@ -1321,7 +1352,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 r _ _ _ 
 6  _ _ _ b
 5 _ _p_ _ 
@@ -1331,7 +1363,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 r _ k _ 
 6  _ _ _ b
 5 _ _p_ _ 
@@ -1341,7 +1374,9 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ _ _ _ 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: select +, -, = or done: 8 rnbqkbnr
+game, move, setup, resign: 
+game, move, setup, resign: 
+select +, -, = or done: 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1781,7 +1816,8 @@ select +, -, = or done: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: White(human/comupter [level]): 
+select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
+White(human/comupter [level]): 
 Black(human/comupter [level]): 
 8  _ _k_ _
 7 _ _ _ _ 
@@ -1793,7 +1829,8 @@ Black(human/comupter [level]):
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1803,7 +1840,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 N _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1813,7 +1851,8 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 N _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _ _ _
+game, move, setup, resign: 
+from: to: 8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1823,7 +1862,8 @@ game, move, setup, resign: from: to: 8  _ _ _ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1833,7 +1873,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ N _ _ 
@@ -1843,7 +1884,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ k _ _
+game, move, setup, resign: 
+from: to: 8  _ k _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ N _ _ 
@@ -1853,7 +1895,8 @@ game, move, setup, resign: from: to: 8  _ k _ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ k _ _
+game, move, setup, resign: 
+from: to: 8  _ k _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1863,7 +1906,8 @@ game, move, setup, resign: from: to: 8  _ k _ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1873,7 +1917,8 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: from: to: 8  _ _k_ _
+game, move, setup, resign: 
+from: to: 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1883,4 +1928,5 @@ game, move, setup, resign: from: to: 8  _ _k_ _
 1 _ _ K _ 
 
   abcdefgh
-game, move, setup, resign: game, move, setup, resign: 
+game, move, setup, resign: 
+game, move, setup, resign: 
