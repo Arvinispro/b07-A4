@@ -81,7 +81,7 @@ int main(){ // input check
         cin >> player;
         if(cin.eof()) break;
         if(cin.fail()){
-          cerr << "White Black: " << endl;
+          // cerr << "White Black: " << endl;
           cin.clear();
           continue;
         }
@@ -104,20 +104,21 @@ int main(){ // input check
           }
           else{
             cerr << "please input 'computer [level]', level can be 1, 2, or 3" << endl;
+            cerr << "White Black: " << endl;
             whiteComp = false;
             getline(cin, dummy);
-            break;
+            continue;
           }
         }
         else{
           cerr << "Please input either 'human' or 'computer [level]" << endl;
+          cerr << "White Black: " << endl;
           getline(cin, dummy);
-          break;
+          continue;
         }
         cin >> player;
         if(cin.eof()) break;
         if(cin.fail()){
-          // cerr << "Invalid input" << endl;
           cerr << "White Black: " << endl;
           cin.clear();
           continue;
@@ -143,15 +144,17 @@ int main(){ // input check
           }
           else{
             cerr << "please input 'computer [level]', level can be 1, 2, or 3" << endl;
+            cerr << "White Black: " << endl;
             blackComp=false;
             getline(cin, dummy);
-            break;
+            continue;
           }
         }
         else{
           cerr << "Please input either 'human' or 'computer [level]" << endl;
+          cerr << "White Black: " << endl;
           getline(cin, dummy);
-          break;
+          continue;
         }
         validate.setPlayers(whiteP.get(), blackP.get()); //returns the raw address for validate. 
         sys.gameStart();
@@ -241,7 +244,7 @@ int main(){ // input check
         else{
           //human
           try{
-            Point piece, position;
+            Point piece{'z', 0}, position{'z', 0};
             cin >> piece >> position;
             move = vector<Point>{piece, position};
           }
@@ -270,7 +273,7 @@ int main(){ // input check
         else{
           //human
           try{
-            Point piece, position;
+            Point piece{'z', 0}, position{'z', 0};
             cin >> piece >> position;
             move = vector<Point>{piece, position};
           }
