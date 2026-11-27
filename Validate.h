@@ -20,6 +20,7 @@ class Validate : public Subject, public Observer {
   Board *board = nullptr;
   moveNode state;
 
+
   bool whiteCastleKing = true, whiteCastleQueen = true;
   bool blackCastleKing = true, blackCastleQueen = true;
   Point enPassantTarget{0, 'a'};
@@ -27,7 +28,6 @@ class Validate : public Subject, public Observer {
   bool isLegalFor(Point from, Point to, bool white, char promotion) const;
   bool hasAnyLegalMove(bool white) const;
 
-  friend class System;
 public:
   Validate();
   ~Validate() override;
@@ -37,7 +37,8 @@ public:
   void validate(); //validate the move recieved from player/bot by seeing if that is legal externally
                   //ie. is the king under check? is the destination occupied by other piece?
   void setPlayers(Subject *p1, Subject *p2); //set subjects of validater
-  
+  void setBoard(Board *b);
+  Board &getBoard();
 
   bool tryMove(Point from, Point to, char promotion = 'z');
   bool isLegal(Point from, Point to, char promotion = 'z') const;
@@ -48,8 +49,6 @@ public:
   std::vector<Point> legalTargets(Point from) const;
   std::vector<LegalMove> legalMoves(bool white) const;
   void resetRuleState(bool standardGame = true);
-  Board &getBoard();
-  void setBoard(Board *board);
 };
 
 #endif
