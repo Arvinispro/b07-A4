@@ -5,7 +5,7 @@
 #include "Subject.h"
 #include "Util.h"
 #include <vector>
-#include <memory>
+#include "Board.h"
 
 
 class Board;
