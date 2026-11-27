@@ -77,12 +77,10 @@ int main(){ // input check
 
     if(command == "game"){
       while(!gameReady){
-        // cout << "White(human/comupter [level]): " << endl;
         // the user will keep input their choice for players until they are valid
         cin >> player;
         if(cin.eof()) break;
         if(cin.fail()){
-          // cerr << "Invalid input" << endl;
           cerr << "White Black: " << endl;
           cin.clear();
           continue;
@@ -116,7 +114,6 @@ int main(){ // input check
           getline(cin, dummy);
           break;
         }
-        // cout << "Black(human/comupter [level]): " << endl;
         cin >> player;
         if(cin.eof()) break;
         if(cin.fail()){
