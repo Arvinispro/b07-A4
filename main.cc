@@ -11,6 +11,8 @@
 #include <algorithm>
 #include <cctype>
 #include <optional>
+#include <memory>
+
 
 using namespace std;
 vector<Point> humanMove(string &dummy){
@@ -44,7 +46,8 @@ optional<char> promotion(string &dummy){
       if(cin.eof()) return nullopt;
 
       if(cin.fail()) throw invalid_argument{"Character only"};
-      if(!allowed.find(promote)) throw invalid_argument{"Promotion not allowed"};
+      bool check = !(allowed.find(promote)==string::npos);
+      if(!check) throw invalid_argument{"Promotion not allowed"};
       break;
     }
     catch(invalid_argument &){
@@ -63,15 +66,14 @@ int main(){ // input check
   System sys{&validate};
   Board board{&validate};
   validate.setBoard(&board);
-  Subject *whiteP=nullptr, *blackP=nullptr;
-  bool whiteComp=false, blackComp=false;
+  unique_ptr<Subject> whiteP=nullptr, blackP=nullptr; //with unique_ptr, the content will auto delete when refer to new stuff. whiteP and blackP are owned by main.
   
   while (true) {
     cout << "game, move, setup, resign: ";
     cin >> command;
 
     // Terminate the program if enter 'quit' or reach EOF.
-    if ( cin.fail() || command == "quit" ) break;
+    if ( cin.fail() || command == "quit" || cin.eof()) break; //delete everything
 
     if(command == "game"){
       while(!gameReady){
@@ -86,20 +88,20 @@ int main(){ // input check
         }
 
         if(player == "human"){
-          whiteP = new Player{&sys};
+          whiteP = make_unique<Player>(&sys);
         }
         else if( player == "computer"){
           whiteComp = true;
           cin >> level;
           if(cin.eof()) break;
           if(level == "[1]"){
-            whiteP = new Computer{&sys, 1};
+            whiteP = make_unique<Computer>(&sys, 1);
           }
           else if(level == "[2]"){
-            whiteP = new Computer{&sys, 2};
+            whiteP = make_unique<Computer>(&sys, 2);
           }
           else if(level == "[3]"){
-            whiteP = new Computer{&sys, 3};
+            whiteP = make_unique<Computer>(&sys, 3);
           }
           else{
             cerr << "please input 'computer [level]', level can be 1, 2, or 3" << endl;
@@ -123,7 +125,7 @@ int main(){ // input check
         }
 
         if(player == "human"){
-          blackP = new Player{&sys}; 
+          blackP = make_unique<Player>(&sys); 
         }
         else if( player == "computer"){
           blackComp=true;
@@ -131,14 +133,14 @@ int main(){ // input check
           if(cin.eof()) break;
 
           if(level == "[1]"){
-            blackP = new Computer{&sys, 1};
+            blackP = make_unique<Computer>(&sys, 1); 
           }
           else if(level == "[2]"){
-            blackP = new Computer{&sys, 2};
+            blackP = make_unique<Computer>(&sys, 2); 
 
           }
           else if(level == "[3]"){
-            blackP = new Computer{&sys, 3};
+            blackP = make_unique<Computer>(&sys, 3); 
           }
           else{
             cerr << "please input 'computer [level]', level can be 1, 2, or 3" << endl;
@@ -152,61 +154,18 @@ int main(){ // input check
           getline(cin, dummy);
           break;
         }
-        validate.setPlayers(whiteP, blackP);
+        validate.setPlayers(whiteP.get(), blackP.get()); //returns the raw address for validate. 
         sys.gameStart();
         board.display();
       }
     } 
-    else if (command == "resign"){
-      sys.resign();
-    }
-    
-    else if (command == "move"){
 
-      if(whiteTurn){
-        if(whiteComp) sys.notifyWhite(vector<Point>{}); //bot should disregard the inputs
-        else{
-          //human
-          move = humanMove(dummy);
-          if(move.size() == 0){
-            cerr << "Input is not complete" << endl;
-            continue;
-          }
-          //promotion
-          if(move.at(1).row ==1 || move.at(1).row==8){
-            promote = promotion(dummy);
-            if(!promote) continue; //returned nullopt
-            sys.notifyWhite(move, promote);
-            continue;
-          }
-          sys.notifyWhite(move);
-        }
-      }
-      else{ //black turn
-        if(blackComp) sys.notifyBlack(vector<Point>{});
-        else{
-          //human
-          if(move.size() == 0){
-            cerr << "Input is not complete" << endl;
-            continue;
-          }
-          //promotion
-          if(move.at(1).row ==1 || move.at(1).row==8){
-            promote = promotion(dummy);
-            if(!promote) continue; //returned nullopt
-            sys.notifyBlack(move, promote);
-            continue;
-          }
-          sys.notifyBlack(move);
-        }
-      }
-      board.display();
-    }
-    
     else if (command == "setup"){
       while(true){
         cout << "select +, -, = or done: ";
         cin >> command;
+        if(cin.eof()) break;
+
         if(command == "+"){
           char piece;
           string allowed = "KQNBRPkqnbrp";
@@ -214,11 +173,13 @@ int main(){ // input check
           try{
             cin >> piece >> position;
             if(cin.fail()) throw invalid_argument{"Expecting char"};
-            if(!allowed.find(piece)) throw invalid_argument{"Invalid piece"};
+            bool check = !(allowed.find(piece)==string::npos);
+            if(!check) throw invalid_argument{"Invalid piece"};
 
           }
           catch(invalid_argument &r) {
             cin.clear();
+            getline(cin, dummy);
             cerr << r.what() << endl;
             continue;
           }
@@ -231,6 +192,7 @@ int main(){ // input check
           }
           catch(invalid_argument &r) {
             cin.clear();
+            getline(cin, dummy);
             cerr << r.what() << endl;
             continue;
           }
@@ -244,7 +206,7 @@ int main(){ // input check
             cin.clear();
             continue;
           }
-          if(color != "white" || color != "black" || color != "White" || color != "Black") continue;
+          if(color != "white" && color != "black" && color != "White" && color != "Black") continue;
           for (char &c : color) c = tolower(static_cast<unsigned char>(c)); //turn to all lower case
           sys.equal(color); //color is either white or black
         }
@@ -260,10 +222,67 @@ int main(){ // input check
         }
         else{
           cout << "command not found" << endl;
+          getline(cin, dummy);
         }
       }
       
     }
+    
+    else if (command == "resign"){
+      if(!gameReady) continue;
+      sys.resign();
+    }
+    
+    else if (command == "move"){ //will keep going until a move is valid
+      if(!gameReady) continue;
+
+      string pawns = "pP";
+      if(whiteTurn){
+        if(whiteComp) sys.notifyWhite(vector<Point>{}); //bot should disregard the inputs
+        else{
+          //human
+          move = humanMove(dummy);
+          if(move.size() == 0){
+            cerr << "Input is not complete" << endl;
+            continue;
+          }
+          //promotion
+          char piece = game[move.at(0).row - 1][move.at(0).col-'a'];
+          bool check = !(pawns.find(piece) == string::npos);
+          if(check && (move.at(1).row ==1 || move.at(1).row==8)){
+            promote = promotion(dummy);
+            if(!promote) continue; //returned nullopt
+            sys.notifyWhite(move, promote);
+            continue;
+          }
+          sys.notifyWhite(move);
+        }
+      }
+      else{ //black turn
+        if(blackComp) sys.notifyBlack(vector<Point>{});
+        else{
+          //human
+          move = humanMove(dummy);
+          if(move.size() == 0){
+            cerr << "Input is not complete" << endl;
+            continue;
+          }
+          //promotion
+          char piece = game[move.at(0).row - 1][move.at(0).col-'a'];
+          bool check = !(pawns.find(piece) == string::npos);
+          if(check && (move.at(1).row ==1 || move.at(1).row==8)){
+            promote = promotion(dummy);
+            if(!promote) continue; //returned nullopt
+            sys.notifyBlack(move, promote);
+            continue;
+          }
+          sys.notifyBlack(move);
+        }
+      }
+      board.display();
+    }
+    
+    
     else{
       cout << "command not found" << endl;
     }

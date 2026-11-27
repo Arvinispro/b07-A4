@@ -5,7 +5,7 @@
 #include "Validate.h" //ComputerMove requires validate and board
 #include "Moves.h"
 #include "Util.h"
-#include <vector>
+#include <random>
 
 class Computer: public Subject, public Observer, public Moves{
   Subject *sys; //subject

@@ -1,0 +1,88 @@
+game      human     human
+move    e2          e4
+	move	e7	e5	
+   move d2 d4   
+      
+		
+move e5 d4
+   resign   
+game
+human
+human
+move
+e2
+e4
+
+
+
+move e7 e5
+
+
+
+
+
+
+
+
+
+
+move g1 f3
+move b8 c6
+
+  resign
+
+game human human
+move e 2 e4
+move e7 e 5
+move    d2          d
+
+
+
+4
+move d	7	d	5
+move e4 d5
+move d8 d5 move b1 c3
+move d5 a5 resign
+game human human
+move e2 e4
+move e7 e5
+move  g1   f3
+
+move b8 c6
+resign
+game human human
+move e   9
+e2 e4
+move 6    e
+e7 e5
+resign
+setup
+-
+a1
+- b1   -	c1
+- d1 - e1 - f1 - g1
+- h1 - a2 - b2 - c2
+- d2 - e2 - f2 - g2
+- h2 - a7 - b7 - c7
+- d7 - e7 - f7 - g7
+- h7 - a8 - b8 - c8
+- d8 - e8 - f8 - g8
+- h8
++    K       e1
++ k
+
+e8
++ P a7
+=
+white
+   done   
+game human human
+move a7 a8
+
+
+Q
+move e8 e7
+  resign
+
+
+quit

@@ -1,0 +1,265 @@
+setup
++ K e1
++ k e8
++ K b4
+- b4
++ Q c4
+- c4
++ R d4
+- d4
++ B f4
+- f4
++ N g4
+- g4
++ P h4
+- h4
++ k b5
+- b5
++ q c5
+- c5
++ r d5
+- d5
++ b f5
+- f5
++ n g5
+- g5
++ p h5
+- h5
++ R a4
++ r a5
+done
+game human human
+move b4 b5
+move c4 c5
+move d4 d5
+move f4 f5
+move g4 g5
+move h4 h5
+move a4 h4
+move b5 b6
+move c5 c6
+move d5 d6
+move f5 f6
+move g5 g6
+move h5 h6
+move a5 h5
+move h4 b4
+move h5 b5
+resign
+setup
++ K e1
+- e1
++ K e3
++ k e8
+- e8
++ k e6
+done
+game human human
+move e1 e2
+move e3 e4
+move e8 e7
+move e6 d6
+move e4 d4
+move d6 c6
+resign
+setup
++ K e1
++ k e8
++ R a3
++ N a5
+- a5
++ B d3
++ N c4
++ b d5
++ P e4
+- e4
++ q h6
++ N h5
+- h5
+done
+game human human
+move a3 f3
+move a3 a6
+move d5 b3
+move d5 f3
+move a6 b6
+move h6 h3
+move b6 b3
+resign
+setup
++ K e1
++ k e8
++ Q a1
+- a1
++ r a2
+- a2
++ N a3
+- a3
++ b a4
+- a4
++ P a5
+- a5
++ q a6
+- a6
++ R a7
+- a7
++ n a8
+- a8
++ B b1
+- b1
++ p b2
+- b2
++ Q b3
+- b3
++ r b4
+- b4
++ N b5
+- b5
++ b b6
+- b6
++ P b7
+- b7
++ q b8
+- b8
++ R c1
+- c1
++ n c2
+- c2
++ B c3
+- c3
++ p c4
+- c4
++ Q c5
+- c5
++ r c6
+- c6
++ N c7
+- c7
++ b c8
+- c8
++ P d1
+- d1
++ q d2
+- d2
++ R d3
+- d3
++ n d4
+- d4
++ B d5
+- d5
++ p d6
+- d6
++ Q d7
+- d7
++ r d8
+- d8
++ N e2
+- e2
++ b e3
+- e3
++ P e4
+- e4
++ q e5
+- e5
++ R e6
+- e6
++ n e7
+- e7
++ B f1
+- f1
++ p f2
+- f2
++ Q f3
+- f3
++ r f4
+- f4
++ N f5
+- f5
++ b f6
+- f6
++ P f7
+- f7
++ q f8
+- f8
++ R g1
+- g1
++ n g2
+- g2
++ B g3
+- g3
++ p g4
+- g4
++ Q g5
+- g5
++ r g6
+- g6
++ N g7
+- g7
++ b g8
+- g8
++ P h1
+- h1
++ q h2
+- h2
++ R h3
+- h3
++ n h4
+- h4
++ B h5
+- h5
++ p h6
+- h6
++ Q h7
+- h7
++ r h8
+- h8
++ R a4
++ r h5
+done
+game human human
+move e1 d1
+move e8 d8
+move d1 c1
+move d8 c8
+move a4 a7
+move h5 h2
+move a7 a1
+move h2 h8
+resign
+setup
++ K e1
++ k e8
++ Q d4
+- d4
++ N d4
++ p c5
+- c5
++ p c5
+- c5
++ r h5
+done
+game human human
+move d4 d5
+move d4 e5
+move d4 f5
+move c5 c4
+move h5 h6
+move f5 e3
+resign
+setup
++ K e1
++ k e8
++ n f3
++ N f6
++ R a3
++ r h6
+done
+- f3
+done
+- f6
+done
+game human human
+move a3 h3
+move h6 a6
+move h3 a3
+resign

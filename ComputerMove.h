@@ -2,7 +2,6 @@
 #define COMPUTER_MOVE_H
 
 #include "Validate.h"
-#include <optional>
 #include <random>
 
 namespace chess {

@@ -17,7 +17,7 @@ Computer::~Computer(){
 }
 void Computer::notify(){ // be called by system to make move
   //assuming no invalid level
-  std::mt19937 random;
+  std::mt19937 random{std::random_device{}()};
   LegalMove moveComp;
   try{
     moveComp = chess::chooseComputerMove(validate.getBoard(), validate, whiteTurn,  level, random);

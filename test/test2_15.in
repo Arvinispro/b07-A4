@@ -1,0 +1,434 @@
+setup
+- b1
+- c1
+- d1
+- e1
+- f1
+- g1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- e8
+- f8
+- g8
++ K a1
++ k h8
+= white
+done
+game human human
+move a1 b1
+move h8 g8
+move b1 c1
+move g8 f8
+resign
+setup
+- a1
+- b1
+- c1
+- e1
+- f1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- f8
+- g8
+- h8
++ K g1
++ R d1
++ B b3
++ k e8
++ r d8
+= white
+done
+game human human
+move d1 d8
+move e8 d8
+move g1 f1
+move d8 e7
+resign
+setup
+- a1
+- b1
+- c1
+- e1
+- f1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- f8
+- g8
+- h8
++ K g1
++ R d1
++ N f3
++ k e8
++ r d8
+= white
+done
+game human human
+move d1 d8
+move e8 d8
+move g1 f1
+move d8 e7
+resign
+setup
+- a1
+- b1
+- e1
+- f1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- f7
+- h7
+- a8
+- b8
+- c8
+- e8
+- f8
+- g8
+- h8
++ K g1
++ R d1
++ B c1
++ k g7
++ b e7
++ r d8
+= white
+done
+game human human
+move d1 d8
+move e7 d8
+move g1 f1
+move g7 g6
+resign
+setup
+- a1
+- b1
+- e1
+- f1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- f8
+- g8
+- h8
++ K g1
++ R d1
++ B c1
++ k e8
++ b g6
++ r d8
+= white
+done
+game human human
+move d1 d8
+move e8 d8
+move g1 f1
+move d8 e7
+move f1 e1
+move e7 d6
+resign
+setup
+- a1
+- c1
+- d1
+- f1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- b8
+- c8
+- d8
+- f8
+- g8
+- h8
++ K e1
++ N b1
++ N g1
++ k e8
+= white
+done
+game human human
+move b1 c3
+move e8 e7
+move g1 f3
+move e7 e6
+resign
+game human human
+move g1 f3
+move g8 f6
+move f3 g1
+move f6 g8
+move g1 f3
+move g8 f6
+move f3 g1
+move f6 g8
+move g1 f3
+move g8 f6
+move f3 g1
+move f6 g8
+move e2 e4
+move e7 e5
+move g1 f3
+move b8 c6
+resign
+game human human
+move b1 c3
+move b8 c6
+move g1 f3
+move g8 f6
+move f3 g1
+move f6 g8
+move c3 b1
+move c6 b8
+move g1 f3
+move g8 f6
+move b1 c3
+move b8 c6
+move c3 b1
+move c6 b8
+move f3 g1
+move f6 g8
+move b1 c3
+move b8 c6
+move g1 f3
+move g8 f6
+move d2 d4
+move d7 d5
+resign
+setup
+- a1
+- b1
+- c1
+- d1
+- f1
+- h1
+- a2
+- b2
+- c2
+- d2
+- e2
+- f2
+- g2
+- h2
+- a7
+- b7
+- c7
+- d7
+- e7
+- f7
+- g7
+- h7
+- a8
+- c8
+- d8
+- f8
+- g8
+- h8
++ K e1
++ N g1
++ k e8
++ n b8
+= white
+done
+game human human
+move e1 f1
+move e8 e7
+move g1 e2
+move e7 d7
+move e2 c1
+move d7 e6
+move c1 d3
+move e6 f7
+move f1 e2
+move f7 f8
+move e2 f1
+move f8 e7
+move f1 g2
+move b8 d7
+move d3 c1
+move e7 f7
+move g2 f2
+move d7 b8
+move f2 e3
+move f7 g6
+move c1 a2
+move b8 c6
+move a2 c1
+move g6 g7
+move c1 e2
+move g7 g6
+move e2 g1
+move g6 h6
+move g1 h3
+move c6 e7
+move h3 g1
+move h6 g6
+move e3 f3
+move g6 h7
+move f3 g2
+move e7 g8
+move g2 f2
+move h7 g7
+move f2 g3
+move g7 h6
+move g1 e2
+move h6 g7
+move e2 c1
+move g8 f6
+move g3 f3
+move g7 h7
+move c1 a2
+move h7 g8
+move f3 e3
+move g8 g7
+move e3 d3
+move f6 h7
+move d3 e3
+move g7 f6
+move e3 d2
+move f6 f7
+move d2 c2
+move h7 f6
+move c2 c1
+move f7 f8
+move c1 b2
+move f8 e7
+move a2 c1
+move e7 d6
+move b2 a1
+move d6 e6
+move c1 a2
+move f6 e8
+move a1 b1
+move e6 f6
+move b1 c2
+move f6 f7
+move c2 d1
+move e8 f6
+move a2 c1
+move f7 f8
+move c1 b3
+move f8 e7
+move d1 e1
+move f6 g8
+move e1 f2
+move e7 f7
+move f2 e2
+move f7 f8
+move e2 f2
+move f8 e8
+move f2 g3
+move g8 f6
+move b3 c1
+move f6 g8
+move g3 h2
+move g8 f6
+move c1 d3
+move e8 d7
+move d3 c1
+move d7 c6
+move h2 h3
+move f6 e8
+move h3 h2
+move c6 c7
+move c1 e2
+move e8 f6
+move e2 g3
+move f6 d7
+resign
