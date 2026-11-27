@@ -21,9 +21,9 @@ vector<Point> humanMove(string &dummy){
   while(true){
     try{
       if(cin.eof()) return vector<Point>{};
-      cout << "from: ";
+      cout << "from: "; //<< endl;
       cin >> piece;
-      cout << "to: ";
+      cout << "to: "; //<< endl;
       cin >> position;
       break;
     }
@@ -247,7 +247,7 @@ int main(){ // input check
             continue;
           }
           //promotion
-          char piece = game[move.at(0).row - 1][move.at(0).col-'a'];
+          char piece = game[8-move.at(0).row][move.at(0).col-'a'];
           bool check = !(pawns.find(piece) == string::npos);
           if(check && (move.at(1).row ==1 || move.at(1).row==8)){
             promote = promotion(dummy);
@@ -268,7 +268,7 @@ int main(){ // input check
             continue;
           }
           //promotion
-          char piece = game[move.at(0).row - 1][move.at(0).col-'a'];
+          char piece = game[8-move.at(0).row ][move.at(0).col-'a'];
           bool check = !(pawns.find(piece) == string::npos);
           if(check && (move.at(1).row ==1 || move.at(1).row==8)){
             promote = promotion(dummy);
