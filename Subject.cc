@@ -7,6 +7,7 @@ void Subject::notifyObservers() const{
     obs -> notify();
   }
 }
+Subject::~Subject(){observers.clear();}
 void Subject::attach(Observer *o){
   observers.emplace_back(o);
 }
