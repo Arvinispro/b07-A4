@@ -350,8 +350,6 @@ select +, -, = or done: 8  _ _k_ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _k_ _
 7 P _ _ _ 
 6  _ _ _ _
@@ -363,4 +361,4 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: promote to(QRNB): game, move, setup, resign: 
+game, move, setup, resign: 

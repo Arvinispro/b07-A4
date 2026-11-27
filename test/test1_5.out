@@ -1,6 +1,4 @@
 game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
@@ -12,7 +10,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -23,7 +21,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -34,7 +32,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -45,7 +43,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -56,7 +54,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -67,7 +65,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -78,7 +76,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -89,7 +87,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -100,7 +98,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -111,7 +109,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -122,7 +120,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_ppQ
 6  _ _ _ _
 5 _ _ p _ 
@@ -133,7 +131,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_ppQ
 6  _ _ _ _
 5 _ _ p _ 
@@ -144,7 +142,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_ppQ
 6  _ _ _ _
 5 _ _ p _ 
@@ -155,7 +153,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_ppQ
 6  _ _ _ _
 5 _ _ p _ 
@@ -166,7 +164,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_ppQ
 6  _ _ _ _
 5 _ _ p _ 
@@ -177,7 +175,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_ppQ
 6  _ _ _ _
 5 _ _ p _ 
@@ -188,7 +186,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_pp 
 6  _ _ _ _
 5 _ _ p _Q
@@ -199,7 +197,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_pp 
 6  _ _ _ _
 5 _ _ p _Q
@@ -210,7 +208,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_pp 
 6  _ _ _ _
 5 _ _ p _Q
@@ -221,7 +219,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_pp 
 6  _ _ _ _
 5 _ _ p _Q
@@ -232,7 +230,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_pp 
 6  _ _ _ _
 5 _ _ p _Q
@@ -243,7 +241,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_pp 
 6  _ _ _ _
 5 _ _ p _Q
@@ -254,7 +252,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_pp 
 6  _ _ _ _
 5 _ _ p _ 
@@ -265,7 +263,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_pp 
 6  _ _ _ _
 5 _ _ p _ 
@@ -276,7 +274,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_pp 
 6 q_ _ _ _
 5 _ _ p _ 
@@ -287,7 +285,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pppp_pp 
 6 q_ _ _ _
 5 _ _ p _ 
@@ -298,7 +296,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pQpp_pp 
 6 q_ _ _ _
 5 _ _ p _ 
@@ -309,7 +307,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pQpp_pp 
 6 q_ _ _ _
 5 _ _ p _ 
@@ -320,7 +318,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 pQpp_pp 
 6  _ _ _ _
 5 _ _ p _ 
@@ -331,7 +329,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 p pp_pp 
 6  _ _ _ _
 5 _Q_ p _ 
@@ -342,7 +340,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 p pp_pp 
 6  _ _ _ _
 5 _Q_ p _ 
@@ -353,7 +351,7 @@ from: to: 8 rnb_kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnb_kbnr
+8 rnb_kbnr
 7 p pp_pp 
 6  _ _ _ _
 5 _Q_ p _ 

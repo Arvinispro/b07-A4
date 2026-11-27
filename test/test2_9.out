@@ -1,6 +1,4 @@
 game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
@@ -12,7 +10,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -23,7 +21,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -34,7 +32,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -45,7 +43,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqkbnr
+8 r_bqkbnr
 7 pppp_ppp
 6  _n_ _ _
 5 _ _ p _ 
@@ -56,7 +54,7 @@ from: to: 8 r_bqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqkbnr
+8 r_bqkbnr
 7 pppp_ppp
 6  _n_ _ _
 5 _ _ p _ 
@@ -67,7 +65,7 @@ from: to: 8 r_bqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqk_nr
+8 r_bqk_nr
 7 pppp_ppp
 6  _n_ _ _
 5 _ b p _ 
@@ -78,7 +76,7 @@ from: to: 8 r_bqk_nr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqk_nr
+8 r_bqk_nr
 7 pppp_ppp
 6  _n_ _ _
 5 _ b p _ 
@@ -89,7 +87,7 @@ from: to: 8 r_bqk_nr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqk_ r
+8 r_bqk_ r
 7 pppp_ppp
 6  _n_ n _
 5 _ b p _ 
@@ -100,7 +98,7 @@ from: to: 8 r_bqk_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqk_ r
+8 r_bqk_ r
 7 pppp_ppp
 6  _n_ n _
 5 _ b p _ 
@@ -111,7 +109,7 @@ from: to: 8 r_bqk_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bq rk_
+8 r_bq rk_
 7 pppp_ppp
 6  _n_ n _
 5 _ b p _ 
@@ -122,7 +120,7 @@ from: to: 8 r_bq rk_
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bq rk_
+8 r_bq rk_
 7 pppp_ppp
 6  _n_ n _
 5 _ b p _ 
@@ -133,7 +131,7 @@ from: to: 8 r_bq rk_
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqr_k_
+8 r_bqr_k_
 7 pppp_ppp
 6  _n_ n _
 5 _ b p _ 
@@ -145,8 +143,6 @@ from: to: 8 r_bqr_k_
   abcdefgh
 game, move, setup, resign: 
 game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
@@ -158,7 +154,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -169,7 +165,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 ppp pppp
 6  _ _ _ _
 5 _ _p_ _ 
@@ -180,7 +176,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 ppp pppp
 6  _ _ _ _
 5 _ _p_ _ 
@@ -191,7 +187,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqkbnr
+8 r_bqkbnr
 7 ppp pppp
 6  _n_ _ _
 5 _ _p_ _ 
@@ -202,7 +198,7 @@ from: to: 8 r_bqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqkbnr
+8 r_bqkbnr
 7 ppp pppp
 6  _n_ _ _
 5 _ _p_ _ 
@@ -213,7 +209,7 @@ from: to: 8 r_bqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ qkbnr
+8 r_ qkbnr
 7 ppp pppp
 6  _n_ _ _
 5 _ _p_b_ 
@@ -224,7 +220,7 @@ from: to: 8 r_ qkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ qkbnr
+8 r_ qkbnr
 7 ppp pppp
 6  _n_ _ _
 5 _ _p_b_ 
@@ -235,7 +231,7 @@ from: to: 8 r_ qkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _kbnr
+8 r_ _kbnr
 7 pppqpppp
 6  _n_ _ _
 5 _ _p_b_ 
@@ -246,7 +242,7 @@ from: to: 8 r_ _kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _kbnr
+8 r_ _kbnr
 7 pppqpppp
 6  _n_ _ _
 5 _ _p_b_ 
@@ -257,7 +253,7 @@ from: to: 8 r_ _kbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _kr bnr
+8  _kr bnr
 7 pppqpppp
 6  _n_ _ _
 5 _ _p_b_ 
@@ -268,7 +264,7 @@ from: to: 8  _kr bnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _kr bnr
+8  _kr bnr
 7 pppqpppp
 6  _n_ _ _
 5 _ _p_b_ 
@@ -279,7 +275,7 @@ from: to: 8  _kr bnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  k r bnr
+8  k r bnr
 7 pppqpppp
 6  _n_ _ _
 5 _ _p_b_ 
@@ -290,7 +286,7 @@ from: to: 8  k r bnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  k r bnr
+8  k r bnr
 7 pppqpppp
 6  _n_ _ _
 5 _ _p_b_ 
@@ -301,7 +297,7 @@ from: to: 8  k r bnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  k _rbnr
+8  k _rbnr
 7 pppqpppp
 6  _n_ _ _
 5 _ _p_b_ 
@@ -313,8 +309,6 @@ from: to: 8  k _rbnr
   abcdefgh
 game, move, setup, resign: 
 game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
@@ -326,7 +320,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -337,7 +331,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -348,7 +342,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -359,7 +353,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkb r
+8 rnbqkb r
 7 pppp_ppp
 6  _ _ n _
 5 _ _ p _ 
@@ -370,7 +364,7 @@ from: to: 8 rnbqkb r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkb r
+8 rnbqkb r
 7 pppp_ppp
 6  _ _ n _
 5 _ _ p _ 
@@ -381,7 +375,7 @@ from: to: 8 rnbqkb r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqk_ r
+8 rnbqk_ r
 7 ppppbppp
 6  _ _ n _
 5 _ _ p _ 
@@ -392,18 +386,7 @@ from: to: 8 rnbqk_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqk_ r
-7 ppppbppp
-6  _ _ n _
-5 _ _ p _ 
-4  _ _P_ _
-3 _ _ _N_ 
-2 PPPPBPPP
-1 RNBQ_K_R
-
-  abcdefgh
-game, move, setup, resign: 
-from: to: 8 rnbq k r
+8 rnbqk_ r
 7 ppppbppp
 6  _ _ n _
 5 _ _ p _ 
@@ -414,7 +397,18 @@ from: to: 8 rnbq k r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbq k r
+8 rnbq k r
+7 ppppbppp
+6  _ _ n _
+5 _ _ p _ 
+4  _ _P_ _
+3 _ _ _N_ 
+2 PPPPBPPP
+1 RNBQ_K_R
+
+  abcdefgh
+game, move, setup, resign: 
+8 rnbq k r
 7 ppppbppp
 6  _ _ n _
 5 _ _ p _ 
@@ -425,7 +419,7 @@ from: to: 8 rnbq k r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqk_ r
+8 rnbqk_ r
 7 ppppbppp
 6  _ _ n _
 5 _ _ p _ 
@@ -436,7 +430,7 @@ from: to: 8 rnbqk_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqk_ r
+8 rnbqk_ r
 7 ppppbppp
 6  _ _ n _
 5 _ _ p _ 
@@ -447,7 +441,7 @@ from: to: 8 rnbqk_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqk_ r
+8 rnbqk_ r
 7 ppppbppp
 6  _ _ n _
 5 _ _ p _ 
@@ -458,7 +452,7 @@ from: to: 8 rnbqk_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqk_ r
+8 rnbqk_ r
 7 ppppbppp
 6  _ _ n _
 5 _ _ p _ 
@@ -469,7 +463,7 @@ from: to: 8 rnbqk_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqk_ r
+8 rnbqk_ r
 7 ppp bppp
 6  _ p n _
 5 _ _ p _ 
@@ -481,8 +475,6 @@ from: to: 8 rnbqk_ r
   abcdefgh
 game, move, setup, resign: 
 game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
@@ -494,7 +486,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -505,7 +497,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -516,7 +508,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 rnbqkbnr
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -527,7 +519,7 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqkbnr
+8 r_bqkbnr
 7 pppp_ppp
 6  _n_ _ _
 5 _ _ p _ 
@@ -538,7 +530,7 @@ from: to: 8 r_bqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqkbnr
+8 r_bqkbnr
 7 pppp_ppp
 6  _n_ _ _
 5 _ _ p _ 
@@ -549,7 +541,7 @@ from: to: 8 r_bqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqkb r
+8 r_bqkb r
 7 pppp_ppp
 6  _n_ n _
 5 _ _ p _ 
@@ -560,7 +552,7 @@ from: to: 8 r_bqkb r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqkb r
+8 r_bqkb r
 7 pppp_ppp
 6  _n_ n _
 5 _ _ p _ 
@@ -571,7 +563,7 @@ from: to: 8 r_bqkb r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqk_ r
+8 r_bqk_ r
 7 pppp_ppp
 6  _n_ n _
 5 _ _ p _ 
@@ -582,7 +574,7 @@ from: to: 8 r_bqk_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqk_ r
+8 r_bqk_ r
 7 pppp_ppp
 6  _n_ n _
 5 _ _ p _ 
@@ -593,7 +585,7 @@ from: to: 8 r_bqk_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bqk_ r
+8 r_bqk_ r
 7 pppp_ppp
 6  _n_ n _
 5 _ _ p _ 
@@ -604,7 +596,7 @@ from: to: 8 r_bqk_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bq rk_
+8 r_bq rk_
 7 pppp_ppp
 6  _n_ n _
 5 _ _ p _ 
@@ -615,7 +607,7 @@ from: to: 8 r_bq rk_
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_bq rk_
+8 r_bq rk_
 7 pppp_ppp
 6  _n_ n _
 5 _ _ p _ 
@@ -948,8 +940,6 @@ select +, -, = or done: 8  r _ _k_
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  r _ _k_
 7 _ _ _ _ 
 6  _ _ _ _
@@ -961,7 +951,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  r _ _k_
+8  r _ _k_
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -972,7 +962,7 @@ from: to: 8  r _ _k_
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  r _ _ _
+8  r _ _ _
 7 _ _ _ k 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -983,7 +973,7 @@ from: to: 8  r _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  r _ _ _
+8  r _ _ _
 7 _ _R_ k 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -994,7 +984,7 @@ from: to: 8  r _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  r _ _ _
+8  r _ _ _
 7 _ _R_ _ 
 6  _ _ _k_
 5 _ _ _ _ 
@@ -1327,8 +1317,6 @@ select +, -, = or done: 8 r_ _k_ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 r_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
@@ -1340,7 +1328,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _kr _ _
+8  _kr _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1351,7 +1339,7 @@ from: to: 8  _kr _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _kr _ _
+8  _kr _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1362,7 +1350,7 @@ from: to: 8  _kr _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _k_ _ _
+8  _k_ _ _
 7 _ _r_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1373,7 +1361,7 @@ from: to: 8  _k_ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _k_ _ _
+8  _k_ _ _
 7 _ _r_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -1716,8 +1704,6 @@ select +, -, = or done: 8  _ _ k _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _ k _
 7 _ _ _ _ 
 6  _b_ _ _
@@ -1729,7 +1715,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ k _
+8  _ _ k _
 7 _ _ _ _ 
 6  _b_ _ _
 5 _ _ _ _ 
@@ -1740,7 +1726,7 @@ from: to: 8  _ _ k _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _b_ _ _
 5 _ _ _ _ 
@@ -1751,7 +1737,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _R_ 
 6  _b_ _ _
 5 _ _ _ _ 
@@ -1762,7 +1748,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ k _ _
+8  _ k _ _
 7 _ _ _R_ 
 6  _b_ _ _
 5 _ _ _ _ 
@@ -2095,8 +2081,6 @@ select +, -, = or done: 8 r_ _k_ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 r_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
@@ -2108,7 +2092,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ _
+8 r_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2119,7 +2103,7 @@ from: to: 8 r_ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ _
+8 r_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2130,7 +2114,7 @@ from: to: 8 r_ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ _
+8 r_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2141,7 +2125,7 @@ from: to: 8 r_ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _ _ _
+8 r_ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2152,7 +2136,7 @@ from: to: 8 r_ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _ _ _
+8 r_ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2163,7 +2147,7 @@ from: to: 8 r_ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ _
+8 r_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2174,7 +2158,7 @@ from: to: 8 r_ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ _
+8 r_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2185,7 +2169,7 @@ from: to: 8 r_ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ _
+8 r_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2196,7 +2180,7 @@ from: to: 8 r_ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ _
+8 r_ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2529,8 +2513,6 @@ select +, -, = or done: 8  _ _k_ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
@@ -2542,7 +2524,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2553,7 +2535,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2564,7 +2546,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2575,7 +2557,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2586,7 +2568,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2597,7 +2579,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2608,7 +2590,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2941,8 +2923,6 @@ select +, -, = or done: 8  _ _k_ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
@@ -2954,7 +2934,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2965,7 +2945,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2976,7 +2956,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2987,7 +2967,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -2998,7 +2978,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3009,7 +2989,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3020,7 +3000,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3031,7 +3011,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3042,7 +3022,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3375,8 +3355,6 @@ select +, -, = or done: 8 r_ _ _k_
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 r_ _ _k_
 7 _ _ _ _ 
 6  _ _ _ _
@@ -3388,7 +3366,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _r_k_
+8  _ _r_k_
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3399,7 +3377,7 @@ from: to: 8  _ _r_k_
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _r_k_
+8  _ _r_k_
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3410,7 +3388,7 @@ from: to: 8  _ _r_k_
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _r_k_
+8  _ _r_k_
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3421,7 +3399,7 @@ from: to: 8  _ _r_k_
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _r_k_
+8  _ _r_k_
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3754,8 +3732,6 @@ select +, -, = or done: 8  _ _ r _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _ r _
 7 _ _ _ k 
 6  _ _ _ _
@@ -3767,7 +3743,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ r _
+8  _ _ r _
 7 _ _ _ k 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3778,7 +3754,7 @@ from: to: 8  _ _ r _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ r _
+8  _ _ r _
 7 _ _ _ k 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -3789,7 +3765,7 @@ from: to: 8  _ _ r _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ r _
+8  _ _ r _
 7 _ _ _ _ 
 6  _ _ _k_
 5 _ _ _ _ 
@@ -4132,8 +4108,6 @@ select +, -, = or done: 8 r_ _k_ r
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 r_ _k_ r
 7 _ _ _ _ 
 6  _ _ _ _
@@ -4145,7 +4119,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ r
+8 r_ _k_ r
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4156,7 +4130,7 @@ from: to: 8 r_ _k_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _ rk_
+8 r_ _ rk_
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4167,7 +4141,7 @@ from: to: 8 r_ _ rk_
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _ rk_
+8 r_ _ rk_
 7 _ _R_ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4178,7 +4152,7 @@ from: to: 8 r_ _ rk_
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _ _k_
+8 r_ _ _k_
 7 _ _R_r_ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4521,8 +4495,6 @@ select +, -, = or done: 8 r_ _k_ r
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 r_ _k_ r
 7 _ _ _ _ 
 6  _ _ _ _
@@ -4534,7 +4506,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ r
+8 r_ _k_ r
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4545,7 +4517,7 @@ from: to: 8 r_ _k_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ r
+8 r_ _k_ r
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4556,7 +4528,7 @@ from: to: 8 r_ _k_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ k _ r
+8 r_ k _ r
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4889,8 +4861,6 @@ select +, -, = or done: 8  _ _k_ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _k_ _
 7 _ _ _ b 
 6  _ _ _ _
@@ -4902,7 +4872,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4913,7 +4883,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4924,7 +4894,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4935,7 +4905,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5268,8 +5238,6 @@ select +, -, = or done: 8  _ _k_ r
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _k_ r
 7 _ _ _ _ 
 6  _ _ _ _
@@ -5281,7 +5249,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ r
+8  _ _k_ r
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5292,7 +5260,7 @@ from: to: 8  _ _k_ r
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ rk_
+8  _ _ rk_
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5303,7 +5271,7 @@ from: to: 8  _ _ rk_
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ rk_
+8  _ _ rk_
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5636,8 +5604,6 @@ select +, -, = or done: 8  _ _k_ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
@@ -5649,7 +5615,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5660,7 +5626,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5671,7 +5637,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5682,7 +5648,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5693,7 +5659,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -5704,7 +5670,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6037,8 +6003,6 @@ select +, -, = or done: 8  _ _k_ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
@@ -6050,7 +6014,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6061,7 +6025,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6072,7 +6036,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6083,7 +6047,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6094,7 +6058,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6105,7 +6069,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6116,7 +6080,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6127,7 +6091,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ k _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6138,7 +6102,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6149,7 +6113,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -6160,7 +6124,7 @@ from: to: 8  _ _k_ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _k_ _
+8  _ _k_ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 

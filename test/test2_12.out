@@ -390,8 +390,6 @@ select +, -, = or done: 8  _rkr_ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _rkr_ _
 7 _ p p _ 
 6  _ _ _ _
@@ -403,7 +401,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: White won!
+White won!
 Summary
 White:1Black:0
 8 rnbqkbnr
@@ -808,8 +806,6 @@ select +, -, = or done: 8  _ _k_ r
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _k_ r
 7 _ _ _ _ 
 6  _ _ _ _
@@ -821,7 +817,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Black won!
+Black won!
 Summary
 White:1Black:1
 8 rnbqkbnr
@@ -1246,8 +1242,6 @@ select +, -, = or done: 8  _ rkr _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ rkr _
 7 _ _p_p_ 
 6  _ _ _ _
@@ -1259,7 +1253,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ rkr _
+8  _ rkr _
 7 _ _ _p_ 
 6  _ _ _ _
 5 _ _pP _ 
@@ -1270,7 +1264,7 @@ from: to: 8  _ rkr _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: White won!
+White won!
 Summary
 White:2Black:1
 8 rnbqkbnr
@@ -1665,8 +1659,6 @@ select +, -, = or done: 8  _ _ _k_
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _ _k_
 7 P _ _ppp
 6  _ _ _ _
@@ -1678,7 +1670,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: promote to(QRNB): White won!
+White won!
 Summary
 White:3Black:1
 8 rnbqkbnr
@@ -2083,8 +2075,6 @@ select +, -, = or done: 8 r_ _ _k_
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 r_ _ _k_
 7 _P_ _ppp
 6  _ _ _ _
@@ -2096,7 +2086,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: promote to(QRNB): White won!
+White won!
 Summary
 White:4Black:1
 8 rnbqkbnr
@@ -2461,8 +2451,6 @@ select +, -, = or done: 8  _ _ _ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _ _ _
 7 k P _ _ 
 6  _K_ _ _
@@ -2474,7 +2462,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: promote to(QRNB): Draw
+Draw
 Summary
 White:4Black:1
 8 rnbqkbnr
@@ -2839,8 +2827,6 @@ select +, -, = or done: 8  _ _ _ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _ _ _
 7 k P _ _ 
 6  _K_ _ _
@@ -2852,7 +2838,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: promote to(QRNB): 8  _R_ _ _
+8  _R_ _ _
 7 k _ _ _ 
 6  _K_ _ _
 5 _ _ _ _ 
@@ -2863,7 +2849,7 @@ from: to: promote to(QRNB): 8  _R_ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _R_ _ _
+8  _R_ _ _
 7 _ _ _ _ 
 6 k_K_ _ _
 5 _ _ _ _ 
@@ -2874,7 +2860,7 @@ from: to: 8  _R_ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ R _ _ 
 6 k_K_ _ _
 5 _ _ _ _ 
@@ -2885,7 +2871,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ R _ _ 
 6  _K_ _ _
 5 k _ _ _ 
@@ -2896,7 +2882,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _R_ _ _
+8  _R_ _ _
 7 _ _ _ _ 
 6  _K_ _ _
 5 k _ _ _ 
@@ -2907,7 +2893,7 @@ from: to: 8  _R_ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _R_ _ _
+8  _R_ _ _
 7 _ _ _ _ 
 6  _K_ _ _
 5 _ _ _ _ 
@@ -3300,8 +3286,6 @@ select +, -, = or done: 8  _ _ _nk
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _ _nk
 7 _ _ _K_p
 6  _ _ _ P
@@ -3313,7 +3297,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Draw
+Draw
 Summary
 White:4Black:2
 8 rnbqkbnr
@@ -3688,8 +3672,6 @@ select +, -, = or done: 8  _ _ _ k
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _ _ k
 7 _ _ _n_ 
 6  _ _ _ _
@@ -3701,7 +3683,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Draw
+Draw
 Summary
 White:4Black:2
 8 rnbqkbnr
@@ -4066,8 +4048,6 @@ select +, -, = or done: 8  _ _ _ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _ _ _
 7 _ _ _ _ 
 6  _ _ _ _
@@ -4079,7 +4059,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4090,7 +4070,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8  _ _ _ _
+8  _ _ _ _
 7 _ _ _ _ 
 6  _ _ _ _
 5 _ _ _ _ 
@@ -4101,7 +4081,7 @@ from: to: 8  _ _ _ _
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Draw
+Draw
 Summary
 White:4Black:2
 8 rnbqkbnr
@@ -4516,8 +4496,6 @@ select +, -, = or done: 8  _N_ _ _
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _N_ _ _
 7 _ _ _ _R
 6 k_ _ _ _
@@ -4529,7 +4507,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: White won!
+White won!
 Summary
 White:5Black:2
 8 rnbqkbnr
@@ -4944,8 +4922,6 @@ select +, -, = or done: 8  _ _ _br
 
   abcdefgh
 select +, -, = or done: white or black?: select +, -, = or done: game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8  _ _ _br
 7 _ _ _Ppk
 6  _ _ _pp
@@ -4957,7 +4933,7 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: to: promote to(QRNB): White won!
+White won!
 Summary
 White:6Black:2
 8 rnbqkbnr

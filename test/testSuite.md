@@ -4,15 +4,15 @@
 
 Each `.in` file has a `.out` file next to it, except the nine skipped files below. The `.out` is stdout and stderr merged in program order (as if run with `2>&1`), so it includes the prompts and the messages `main.cc` sends to `cerr`.
 
-How they were produced: the current source, run on every `.in`, with three scratch fixes for bugs that stop the intended behaviour (the files in your folder were not changed):
-- **`Validate::validate`** calls `tryMove(from, to)` and drops the promotion letter, so every promotion is rejected. The scratch copy passes `move.promote.value_or('z')`.
+How they were produced: the current source, run on every `.in`, with one scratch fix for a bug that stops the intended behaviour (the files in your folder were not changed):
 - **`resetRuleState`** is never called when a game starts, so castling rights and the en passant square carry over from the previous game. The scratch copy calls `validate->resetRuleState(false)` in `System::gameStart`.
-- **`main.cc` lines 250 and 271** read the moving piece with `game[row - 1][...]`, but row 0 of `game` is rank 8, so the lookup is mirrored and promotion is mis-detected. The scratch copy uses `game[8 - row][...]`.
+- The earlier promotion-letter bug (`Validate::validate`) and the mirrored row lookup in `main.cc` are already fixed in the source, so they need no scratch fix.
 
 Every move the program accepted or rejected was also checked against python-chess (1,788 attempts, no differences). Running every file twice gave identical output.
 
 What the outputs contain (from the current print statements):
-- The prompt `game, move, setup, resign: ` is printed before every top-level command, and once more at the end of input (no trailing newline).
+- The prompt `game, move, setup, resign: ` is printed (with a newline) before every top-level command, and once more at the end of input.
+- `from:` and `to:` (stderr) and `promote to(QRNB): ` appear only after an invalid or incomplete move; a normal `move e2 e4` reads both points directly. The `White(...)` and `Black(...)` prompts are no longer printed.
 - The board is printed once per `move` command (also for a rejected move), once at game start, and after every `+` and `-` in setup.
 - When a game ends by checkmate or stalemate the output is `White won!`, `Black won!` or `Draw`, then `Summary` and `White:xBlack:y`, then the standard board. The board comes last because `System::notify` resets it before `Board::notify` draws.
 - `resign` prints nothing. `quit` and end of input print no final score.

@@ -1,6 +1,4 @@
 game, move, setup, resign: 
-White(human/comupter [level]): 
-Black(human/comupter [level]): 
 8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
@@ -12,8 +10,11 @@ Black(human/comupter [level]):
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 rnbqkbnr
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnbqkbnr
 7 pppppppp
 6  _ _ _ _
 5 _ _ _ _ 
@@ -24,8 +25,11 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 rnbqkbnr
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
@@ -36,304 +40,375 @@ from: to: 8 rnbqkbnr
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 rnbqkbnr
+from: 
+to: 
+8 rnbqkbnr
 7 pppp_ppp
 6  _ _ _ _
 5 _ _ p _ 
 4  _ _P_ _
-3 _ _ _N_ 
+3 _ _ _ _ 
 2 PPPP PPP
-1 RNBQKB_R
+1 RNBQKBNR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_bqkbnr
+command not found
+game, move, setup, resign: 
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnbqkbnr
 7 pppp_ppp
-6  _n_ _ _
+6  _ _ _ _
 5 _ _ p _ 
 4  _ _P_ _
-3 _ _ _N_ 
+3 _ _ _ _ 
 2 PPPP PPP
-1 RNBQKB_R
+1 RNBQKBNR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 r_bqkbnr
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnbqkbnr
 7 pppp_ppp
-6  _n_ _ _
+6  _ _ _ _
 5 _ _ p _ 
 4  _B_P_ _
-3 _ _ _N_ 
+3 _ _ _ _ 
 2 PPPP PPP
-1 RNBQK _R
+1 RNBQK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 r_bqkb r
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnbqkb r
 7 pppp_ppp
-6  _n_ n _
+6  _ _ n _
 5 _ _ p _ 
 4  _B_P_ _
-3 _ _ _N_ 
+3 _ _ _ _ 
 2 PPPP PPP
-1 RNBQK _R
+1 RNBQK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_bqkb r
+from: 
+to: 
+8 rnbqkb r
 7 pppp_ppp
-6  _n_ n _
+6  _ _ n _
 5 _ _ p _ 
 4  _B_P_ _
-3 _ _P_N_ 
+3 _ _P_ _ 
 2 PPP_ PPP
-1 RNBQK _R
+1 RNBQK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_bqk_ r
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnbqk_ r
 7 pppp_ppp
-6  _n_ n _
+6  _ _ n _
 5 _ b p _ 
 4  _B_P_ _
-3 _ _P_N_ 
+3 _ _P_ _ 
 2 PPP_ PPP
-1 RNBQK _R
+1 RNBQK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 r_bqk_ r
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnbqk_ r
 7 pppp_ppp
-6  _n_ n _
+6  _ _ n _
 5 _ b p B 
 4  _B_P_ _
-3 _ _P_N_ 
+3 _ _P_ _ 
 2 PPP_ PPP
-1 RN_QK _R
+1 RN_QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 r_bqk_ r
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnbqk_ r
 7 ppp _ppp
-6  _np n _
+6  _ p n _
 5 _ b p B 
 4  _B_P_ _
-3 _ _P_N_ 
+3 _ _P_ _ 
 2 PPP_ PPP
-1 RN_QK _R
+1 RN_QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_bqk_ r
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnbqk_ r
 7 ppp _ppp
-6  _np n _
+6  _ p n _
 5 _ b p B 
 4  _B_P_ _
-3 _ NP_N_ 
+3 _ NP_ _ 
 2 PPP_ PPP
-1 R _QK _R
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 r_ qk_ r
+from: 
+to: 
+8 rnbqk_ r
 7 ppp _ppp
-6  _npbn _
+6  _ p n _
 5 _ b p B 
 4  _B_P_ _
-3 _ NP_N_ 
+3 _ NP_ _ 
 2 PPP_ PPP
-1 R _QK _R
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_ qk_ r
+command not found
+game, move, setup, resign: 
+from: 
+to: 
+8 rnbqk_ r
 7 ppp _ppp
-6  _npBn _
+6  _ p n _
 5 _ b p B 
-4  _ _P_ _
-3 _ NP_N_ 
+4  _B_P_ _
+3 _ NP_ _ 
 2 PPP_ PPP
-1 R _QK _R
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 r_ qk_ r
-7 ppp _ pp
-6  _nppn _
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnbqk_ r
+7 ppp _ppp
+6  _ p n _
 5 _ b p B 
-4  _ _P_ _
-3 _ NP_N_ 
+4  _B_P_ _
+3 _ NP_ _ 
 2 PPP_ PPP
-1 R _QK _R
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: Input the piece and position again
-from: to: 8 r_ qk_ r
-7 ppp _ pp
-6  _nppn _
+from: 
+to: 
+8 rnbqk_ r
+7 ppp _ppp
+6  _ p n _
 5 _ b p B 
-4  _ _P_ _
-3 _ NP_N_ 
-2 PPP_QPPP
-1 R _ K _R
+4  _B_P_ _
+3 _ NP_ _ 
+2 PPP_ PPP
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 pppq_ pp
-6  _nppn _
+command not found
+game, move, setup, resign: 
+command not found
+game, move, setup, resign: 
+command not found
+game, move, setup, resign: 
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnb_k_ r
+7 pppq_ppp
+6  _ p n _
 5 _ b p B 
-4  _ _P_ _
-3 _ NP_N_ 
-2 PPP_QPPP
-1 R _ K _R
+4  _B_P_ _
+3 _ NP_ _ 
+2 PPP_ PPP
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 pppq_ pp
-6  _nppn _
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnb_k_ r
+7 pppq_ppp
+6  _ p n _
 5 _ b p B 
-4  _ _P_ _
-3 P NP_N_ 
-2  PP_QPPP
-1 R _ K _R
+4  _B_P_ _
+3 P NP_ _ 
+2  PP_ PPP
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 _ppq_ pp
-6 p_nppn _
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnb_k_ r
+7 _ppq_ppp
+6 p_ p n _
 5 _ b p B 
-4  _ _P_ _
-3 P NP_N_ 
-2  PP_QPPP
-1 R _ K _R
+4  _B_P_ _
+3 P NP_ _ 
+2  PP_ PPP
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 _ppq_ pp
-6 p_nppn _
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnb_k_ r
+7 _ppq_ppp
+6 p_ p n _
 5 _ b p B 
-4  _ _P_ _
-3 P NP_N_P
-2  PP_QPP_
-1 R _ K _R
+4  _B_P_ _
+3 P NP_ _P
+2  PP_ PP_
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 _ppq_ p 
-6 p_nppn p
+from: 
+to: 
+Input the piece and position again
+from: 
+to: 
+8 rnb_k_ r
+7 _ppq_pp 
+6 p_ p n p
 5 _ b p B 
-4  _ _P_ _
-3 P NP_N_P
-2  PP_QPP_
-1 R _ K _R
+4  _B_P_ _
+3 P NP_ _P
+2  PP_ PP_
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 _ppq_ p 
-6 p_nppB p
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnb_k_ r
+7 _ppq_pp 
+6 p_ p B p
 5 _ b p _ 
-4  _ _P_ _
-3 P NP_N_P
-2  PP_QPP_
-1 R _ K _R
+4  _B_P_ _
+3 P NP_ _P
+2  PP_ PP_
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 _ppq_ _ 
-6 p_nppp p
+from: 
+to: 
+8 rnb_k_ r
+7 _ppq_pp 
+6 p_ p B p
 5 _ b p _ 
-4  _ _P_ _
-3 P NP_N_P
-2  PP_QPP_
-1 R _ K _R
+4  _B_P_ _
+3 P NP_ _P
+2  PP_ PP_
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 _ppq_ _ 
-6 p_nppp p
+command not found
+game, move, setup, resign: 
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnb_k_ r
+7 _ppq_pp 
+6 p_ p B p
 5 _ b p _ 
-4  _ _P_ _
-3 PPNP_N_P
-2  _P_QPP_
-1 R _ K _R
+4  _B_P_ _
+3 P NP_ _P
+2  PP_ PP_
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 _ppq_ _ 
-6  _nppp p
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnb_k_ r
+7 _ppq_pp 
+6  _ p B p
 5 p b p _ 
-4  _ _P_ _
-3 PPNP_N_P
-2  _P_QPP_
-1 R _ K _R
+4  _B_P_ _
+3 P NP_ _P
+2  PP_ PP_
+1 R _QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 _ppq_ _ 
-6  _nppp p
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnb_k_ r
+7 _ppq_pp 
+6  _ p B p
 5 p b p _ 
-4  _ _P_ _
-3 PPNP_N_P
-2  _P_QPP_
-1 _R_ K _R
+4  _B_P_ _
+3 P NP_ _P
+2  PP_ PP_
+1 _R_QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: Input the piece and position again
-from: to: 8 r_ _k_ r
-7 _ppq_ _ 
-6  _nppp _
+from: 
+Input the piece and position again
+from: 
+to: 
+8 rnb_k_ r
+7 _ppq_pp 
+6  _ p B _
 5 p b p _p
-4  _ _P_ _
-3 PPNP_N_P
-2  _P_QPP_
-1 _R_ K _R
+4  _B_P_ _
+3 P NP_ _P
+2  PP_ PP_
+1 _R_QK NR
 
   abcdefgh
 game, move, setup, resign: 
-from: to: 8 r_ _k_ r
-7 _ppq_ _ 
-6  _nppp _
+8 rnb_k_ r
+7 _ppq_pp 
+6  _ p B _
 5 p b p _p
-4  _ _P_ P
-3 PPNP_N_ 
-2  _P_QPP_
-1 _R_ K _R
+4  _B_P_ P
+3 P NP_ _ 
+2  PP_ PP_
+1 _R_QK NR
 
   abcdefgh
 game, move, setup, resign: 
