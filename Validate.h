@@ -18,7 +18,8 @@ class Validate : public Subject, public Observer {
   Subject *p1 = nullptr;
   Subject *p2 = nullptr;
   Board *board = nullptr;
-  std::vector<Point> state;
+  moveNode state;
+
 
   bool whiteCastleKing = true, whiteCastleQueen = true;
   bool blackCastleKing = true, blackCastleQueen = true;
@@ -36,7 +37,8 @@ public:
   void validate(); //validate the move recieved from player/bot by seeing if that is legal externally
                   //ie. is the king under check? is the destination occupied by other piece?
   void setPlayers(Subject *p1, Subject *p2); //set subjects of validater
-  
+  void setBoard(Board *b);
+  Board &getBoard();
 
   bool tryMove(Point from, Point to, char promotion = 'z');
   bool isLegal(Point from, Point to, char promotion = 'z') const;
