@@ -21,9 +21,9 @@ vector<Point> humanMove(string &dummy){
   while(true){
     try{
       if(cin.eof()) return vector<Point>{};
-      cout << "from: "; //<< endl;
+      cerr << "from: " << endl;
       cin >> piece;
-      cout << "to: "; //<< endl;
+      cerr << "to: " << endl;
       cin >> position;
       break;
     }
@@ -41,7 +41,6 @@ optional<char> promotion(string &dummy){
   string allowed = "QRNB";
   while(true){
     try{
-      cout << "promote to(QRNB): ";
       cin >> promote;
       if(cin.eof()) return nullopt;
 
@@ -53,7 +52,8 @@ optional<char> promotion(string &dummy){
     catch(invalid_argument &){
       cin.clear();
       getline(cin, dummy);
-      cerr << "Input promotion again" << endl;
+      // cerr << "Input promotion again" << endl;
+      cerr << "promote to(QRNB): ";
     }
   }
   return promote;
@@ -77,12 +77,13 @@ int main(){ // input check
 
     if(command == "game"){
       while(!gameReady){
-        cout << "White(human/comupter [level]): " << endl;
+        // cout << "White(human/comupter [level]): " << endl;
         // the user will keep input their choice for players until they are valid
         cin >> player;
         if(cin.eof()) break;
         if(cin.fail()){
-          cerr << "Invalid input" << endl;
+          // cerr << "Invalid input" << endl;
+          cerr << "White Black: " << endl;
           cin.clear();
           continue;
         }
@@ -115,11 +116,12 @@ int main(){ // input check
           getline(cin, dummy);
           break;
         }
-        cout << "Black(human/comupter [level]): " << endl;
+        // cout << "Black(human/comupter [level]): " << endl;
         cin >> player;
         if(cin.eof()) break;
         if(cin.fail()){
-          cerr << "Invalid input" << endl;
+          // cerr << "Invalid input" << endl;
+          cerr << "White Black: " << endl;
           cin.clear();
           continue;
         }
@@ -241,7 +243,15 @@ int main(){ // input check
         if(whiteComp) sys.notifyWhite(vector<Point>{}); //bot should disregard the inputs
         else{
           //human
-          move = humanMove(dummy);
+          try{
+            Point piece, position;
+            cin >> piece >> position;
+            move = vector<Point>{piece, position};
+          }
+          catch(invalid_argument &){
+            move = humanMove(dummy);
+          }
+          
           if(move.size() == 0){
             cerr << "Input is not complete" << endl;
             continue;
@@ -262,7 +272,14 @@ int main(){ // input check
         if(blackComp) sys.notifyBlack(vector<Point>{});
         else{
           //human
-          move = humanMove(dummy);
+          try{
+            Point piece, position;
+            cin >> piece >> position;
+            move = vector<Point>{piece, position};
+          }
+          catch(invalid_argument &){
+            move = humanMove(dummy);
+          }
           if(move.size() == 0){
             cerr << "Input is not complete" << endl;
             continue;
