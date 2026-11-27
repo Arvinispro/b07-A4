@@ -40,7 +40,7 @@ public:
                   //ie. is the king under check? is the destination occupied by other piece?
   void setPlayers(Subject *p1, Subject *p2); //set subjects of validater
   void setBoard(Board *b);
-  Board &getBoard();
+  Board getBoard();
 
   bool tryMove(Point from, Point to, char promotion = 'z');
   bool isLegal(Point from, Point to, char promotion = 'z') const;
