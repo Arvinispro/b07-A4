@@ -127,18 +127,24 @@ void Validate::setPlayers(Subject *white, Subject *black) {
   if (p2 && p2 != p1) p2->attach(this);
 }
 
-moveNode Validate::getState() { return state; } //debug
-
+moveNode Validate::getState() {
+    return state;
+}
 void Validate::notify() {
   validate();
 }
 
 void Validate::validate() {
-  Subject *player = whiteTurn ? p1 : p2;
-  if (!player) return;
-  moveNode move = player->getState();
-  if (move.move.size() < 2) return;
-  tryMove(move.move[0], move.move[1]);
+    Subject *player = whiteTurn ? p1 : p2;
+    if (!player) return;
+    moveNode request = player->getState();
+    if (request.move.size() != 2) return;
+    char promotion = request.promote.value_or('z');
+    tryMove(
+        request.move[0],
+        request.move[1],
+        promotion
+    );
 }
 
 void Validate::resetRuleState(bool standardGame) {
@@ -156,6 +162,7 @@ void Validate::resetRuleState(bool standardGame) {
   }
   enPassantTarget = Point{0, 'a'};
   state.move.clear();
+  state.promote.reset();
 }
 
 bool Validate::isLegalFor(Point from, Point to, bool white, char promote) const {
@@ -226,11 +233,13 @@ bool Validate::isLegal(Point from, Point to, char promotion) const {
 }
 
 bool Validate::tryMove(Point from, Point to, char promotion) {
-  state.move.clear();
-  if (!isLegal(from, to, promotion)) {
-    notifyObservers();
-    return false;
-  }
+    state.move.clear();
+    state.promote.reset();
+
+    if (!isLegal(from, to, promotion)) {
+        notifyObservers();
+        return false;
+}
 
   char moving = board->at(from);
   char captured = board->at(to);
@@ -262,7 +271,12 @@ bool Validate::tryMove(Point from, Point to, char promotion) {
   }
 
   board->applyUnchecked(from, to, promotion);
-  state.move = {from, to};
+  state = moveNode{
+    {from, to},
+    promotion == 'z'
+        ? std::nullopt
+        : std::optional<char>{promotion}
+};
   whiteTurn = !whiteTurn;
   notifyObservers();
   return true;
@@ -363,7 +377,4 @@ vector<LegalMove> Validate::legalMoves(bool white) const {
     }
   }
   return moves;
-}
-Board &Validate::getBoard(){
-  return *board;
 }
