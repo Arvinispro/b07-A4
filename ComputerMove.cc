@@ -157,6 +157,7 @@ LegalMove randomMove(const std::vector<LegalMove> &moves, std::mt19937 &random) 
 
 }
 
+
 LegalMove chooseComputerMove(const Board &board, const Validate &validate,
                                            bool white, int level, std::mt19937 &random) {
     if (level < 1 || level > 3) {
@@ -201,3 +202,89 @@ LegalMove chooseComputerMove(const Board &board, const Validate &validate,
 }
 
 }
+
+struct treeNode{
+    int score;
+    // int depth;
+    LegalMove move;
+    treeNode *parent;
+    std::vector<treeNode> children;
+
+    void formTree(const Validate &validate, bool turn, std::vector<std::vector<char>> game, int depth, treeNode *parent){
+        //find all or some legal moves
+        if(depth==0 || validate.isCheckmate(game)) return;
+
+        for(const auto &move:validate.legalMoves(turn)){
+            
+            //create a config copy
+            auto game_copy = game;
+            //apply move
+            game_copy = applyMove(move);
+            int score = 0; //calculate score
+            parent -> children.emplace_back(treeNode{score, move, this, std::vector<treeNode>({})});
+
+            //pass down the config and switch turn to run all the legal moves
+            formTree(validate, !turn, game_copy, depth-1, this);
+
+        }
+        
+    }
+};
+struct scoreNode{
+    int score;
+    LegalMove move;
+    std::vector<treeNode> children;
+
+    scoreNode &max(scoreNode &a, scoreNode&b){
+        if(a.children.size()>0 && b.children.size()>0){
+            auto n = a.score <=> b.score;
+            if(n>=0) return a;
+            else return b;
+        }
+        else if(a.children.size()>0) return b;
+        else if(b.children.size()>0) return a;
+        return a;
+    }
+    scoreNode &min(scoreNode &a, scoreNode&b){
+        if(a.children.size()>0 && b.children.size()>0){
+            auto n = a.score <=> b.score;
+            if(n<=0) return a;
+            else return b;
+        }
+        else if(a.children.size()>0) return b;
+        else if(b.children.size()>0) return a;
+        return a;
+    }
+
+    scoreNode minmax(treeNode head, int depth, scoreNode alpha, scoreNode beta, bool ismaxing){
+        if(depth==0 || head.children.size()==0){
+            return scoreNode{};
+        }
+        if(ismaxing){
+            scoreNode maxeval = scoreNode{-100, moveNode({})};
+            for(auto child : head.children){
+                scoreNode eval = minmax(child, depth-1, alpha, beta, false);
+                maxeval = max(maxeval, eval);
+                alpha = max(alpha, eval);
+                if(beta.score <= alpha.score ) break;
+            }
+            return maxeval;
+        }
+        else{
+            scoreNode mineval = scoreNode{100, moveNode({})};
+            for(auto child : head.children){
+                scoreNode eval = minmax(child, depth-1, alpha, beta, true);
+                mineval = min(eval, mineval);
+            }
+            return mineval;
+        }
+    }
+    LegalMove bot4(const Validate &validate){
+        treeNode head{0, moveNode({}), &head, std::vector<treeNode>({})}; // we only need head to access the tree, we don't care about its content
+        head.formTree(validate, whiteTurn, game, 2, &head);
+        
+        //find the best next move
+        scoreNode best = minmax(head, 2, scoreNode{-100, moveNode({})}, scoreNode{100, moveNode({})}, true);
+        return best.move;
+    }
+};
